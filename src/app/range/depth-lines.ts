@@ -258,7 +258,7 @@ export class DepthRangeSummary {
     }
     if (held.view?.takes) lines.push(note('dp-takes', t('Take profits are drawn as a dashed line and not counted here.')));
     if (!s.rows.length) {
-      lines.push(note('dp-empty', s.closed > 0 && s.none <= 0 ? t('This stretch of the liquidation levels\' history is part of Plus.')
+      lines.push(note('dp-empty', s.closed > 0 && s.none <= 0 ? t('This stretch of liquidation history is unavailable from the upstream service.')
         : kind === 'stops' ? t('No stop levels snapshot was in force in this selection.') : kind === 'both' ? t('No snapshot with both liquidations and stops was in force in this selection.')
           : t('No liquidation levels snapshot was in force in this selection.')));
     }
@@ -287,7 +287,7 @@ export class DepthRangeSummary {
     }
     // Coverage, whatever was found: time with no snapshot in force, and time outside the columns drawn (unknown).
     const parts = [
-      ...(s.closed > 0 ? [t('part of Plus: {time}', { time: shortDuration(s.closed) })] : []),
+      ...(s.closed > 0 ? [t('unavailable history: {time}', { time: shortDuration(s.closed) })] : []),
       ...(s.none > 0 ? [t('no snapshot in force: {time}', { time: shortDuration(s.none) })] : []),
       ...(s.outside > 0 ? [t('outside the columns drawn: {time}', { time: shortDuration(s.outside) })] : []),
     ];

@@ -5,7 +5,6 @@
  * liquidations alone.
  */
 import { t } from './i18n.ts';
-import { plus } from './plus/pass.ts';
 import type { LiqGroup, LiqKind, LiqLevelSettings } from './liq-url.ts';
 
 export interface LiqView { kind: LiqKind; takes: boolean; group: LiqGroup }
@@ -55,17 +54,5 @@ export function viewParts(v: LiqView): string[] {
   return [kindTitle(v.kind), ...(groupApplies(v.kind) && v.group !== 'all' ? [groupTitle(v.group)] : []), ...(v.takes ? [t('Take profits')] : [])];
 }
 
-let plusOnHeld: boolean | null = null;
-// Told before any pane is (they import this module): a pane told of a change reads the new value, never the one before it.
-plus().subscribe(() => { plusOnHeld = null; });
-/**
- * Whether Plus is in force in this browser, kept from the membership's own announcements (`plus().on` reads the pass each time it is asked,
- * too much for every frame). A pass that runs out unannounced is told within a minute (`Plus.tick`).
- */
-export function plusOn(): boolean {
-  plusOnHeld ??= plus().on;
-  return plusOnHeld;
-}
-
-/** What the page draws for these settings now. */
-export const liveView = (s: Pick<LiqLevelSettings, 'kind' | 'takes' | 'group'>): LiqView => effectiveView(s, plusOn());
+/** This fork displays only public liquidation levels, including when an old layout chose a paid layer. */
+export const liveView = (_s: Pick<LiqLevelSettings, 'kind' | 'takes' | 'group'>): LiqView => FREE_VIEW;

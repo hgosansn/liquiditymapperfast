@@ -76,7 +76,6 @@ import './styles.css';
 import './mobile.css';
 import './chrome.css';
 import { t } from './i18n.ts';
-import { plus } from './plus/pass.ts';
 import { useMarkets } from './venue-marks.ts';
 import { historyHours, isHandheldPhone, savesData, type PhoneHistory } from './history-window.ts';
 
@@ -197,8 +196,6 @@ async function main(): Promise<void> {
   const candle = new CandlePane(main, store, hub, kernels, s => heat.footprintMarkets(s));
   // The phone's Liq tab: the liquidation ladder, next to the Book (panes/liq-pane.ts).
   const liq = new LiqPane(main, store, hub);
-  // Plus coming or going changes what the levels show (the free view without it, `liq-view.ts`): the map, the Liq tab and the Depth pane draw again.
-  plus().subscribe(() => { heat.invalidate(); liq.invalidate(); depth.refresh(); });
   // Every pane drawn in the page's palette: a theme picked, or previewed by hover, repaints them all (one list, so none is left in the old one).
   const themed = [heat, ladder, depth, oi, delta, ls, funding, lt, bars, script, cvd, candle, liq];
   // A phone's Settings has the Tape tab's own rows: what it shows first (the list, or the chart), then the chart's rows, there only while the
