@@ -286,11 +286,7 @@
  "Imbalance": "Desequilíbrio",
  "Liquidity tracker is collecting…": "O Liquidity Tracker está coletando dados…",
  "imb": "desequil.",
- "{n} venues": {
-  "one": "{n} exchange",
-  "other": "{n} exchanges",
-  "many": "{n} exchanges"
- },
+ "{n} venues": {"one":"{n} exchange","other":"{n} exchanges","many":"{n} exchanges"},
  "Choose, order and configure the statistics shown for each candle": "Escolha, ordene e configure as estatísticas exibidas para cada vela",
  "Default": "Padrão",
  "None": "Nenhuma",
@@ -320,11 +316,7 @@
  "Market orders under this size are retail (delta retail, cvd retail).": "As ordens a mercado abaixo deste tamanho são de varejo (delta varejo, CVD varejo).",
  "Whales": "Baleias",
  "Market orders of this size and over are whales (delta whales, cvd whales).": "As ordens a mercado deste tamanho ou maiores são de baleias (delta baleias, CVD baleias).",
- "{n} stats · cvd sums the bars loaded for the view": {
-  "one": "{n} estatística · o CVD soma as barras carregadas para a visão",
-  "other": "{n} estatísticas · o CVD soma as barras carregadas para a visão",
-  "many": "{n} estatísticas · o CVD soma as barras carregadas para a visão"
- },
+ "{n} stats · cvd sums the bars loaded for the view": {"one":"{n} estatística · o CVD soma as barras carregadas para a visão","other":"{n} estatísticas · o CVD soma as barras carregadas para a visão","many":"{n} estatísticas · o CVD soma as barras carregadas para a visão"},
  "No statistics selected: use Stats to add some.": "Nenhuma estatística selecionada: use Stats para adicionar algumas.",
  "Bar stats appear once executions are recorded for the visible candles.": "As estatísticas de barra aparecem quando há execuções gravadas para as velas visíveis.",
  "No executions recorded for the candles in view.": "Nenhuma execução gravada para as velas na visão.",
@@ -401,11 +393,7 @@
  "Smallest trade in this tier, USD notional (at least {min})": "Menor operação deste nível, nocional em USD (no mínimo {min})",
  "Mute the {tier} tier": "Silenciar o nível {tier}",
  "Sound the {tier} tier": "Ativar o som do nível {tier}",
- "{n} notes": {
-  "one": "{n} nota",
-  "other": "{n} notas",
-  "many": "{n} notas"
- },
+ "{n} notes": {"one":"{n} nota","other":"{n} notas","many":"{n} notas"},
  "Buy": "Compra",
  "Hear a {tier} buy": "Ouvir uma compra {tier}",
  "Sell": "Venda",
@@ -496,11 +484,7 @@
  "How far above its recent average something must be: lower flags more, higher flags only the extremes.": "Quanto acima da média recente algo precisa estar: mais baixo marca mais, mais alto marca só os extremos.",
  "Baseline": "Referência",
  "How many preceding bars the average and spread are taken from.": "De quantas barras anteriores a média e a dispersão são calculadas.",
- "{n} bars": {
-  "one": "{n} barra",
-  "other": "{n} barras",
-  "many": "{n} barras"
- },
+ "{n} bars": {"one":"{n} barra","other":"{n} barras","many":"{n} barras"},
  "A bar is flagged when its value exceeds the mean plus the sensitivity times the standard deviation of the bars before it. The bar itself never raises its own threshold, and nothing is flagged until a dozen bars exist.": "Uma barra é marcada quando seu valor ultrapassa a média mais a sensibilidade vezes o desvio-padrão das barras anteriores. A própria barra nunca eleva o seu limite, e nada é marcado até existir uma dúzia de barras.",
  "Tested on Binance BTCUSDT perpetual history: no reliable direction; at 15m these levels were revisited somewhat less often than look-alike candles. Not a forecast.": "Testado no histórico de perpétuos BTCUSDT da Binance: nenhuma direção confiável; em 15m esses níveis foram revisitados um pouco menos que velas parecidas. Não é uma previsão.",
  "Not validated for this market and timeframe. Not a forecast.": "Não validado para este mercado e prazo. Não é uma previsão.",
@@ -747,11 +731,7 @@
  "Threshold": "Limiar",
  "Marks": "Marcas",
  "Market orders of one side met resting orders at one price within {ms} ms. It marks what traded, not what price did next.": "Ordens a mercado de um lado encontraram ordens em espera a um único preço em {ms} ms. Marca o que foi negociado, não o que o preço fez depois.",
- "{n} marks": {
-  "one": "{n} marca",
-  "other": "{n} marcas",
-  "many": "{n} marcas"
- },
+ "{n} marks": {"one":"{n} marca","other":"{n} marcas","many":"{n} marcas"},
  "Absorption": "Absorção",
  "Absorption marks: where market orders of one side met resting orders at one price for more than a threshold within 10 ms. A square below a level means passive buyers took the selling; above, passive sellers took the buying.": "Marcas de absorção: onde ordens a mercado de um lado encontraram ordens em espera a um preço por mais que um limiar em 10 ms. Um quadrado abaixo de um nível: compradores passivos absorveram as vendas; acima, vendedores passivos absorveram as compras.",
  "Absorption: only the largest marks of {venues} are drawn in this window.": "Absorção: neste intervalo só são desenhadas as maiores marcas de {venues}.",
@@ -831,11 +811,7 @@
  "By exchange": "Por exchange",
  "Exchange": "Exchange",
  "Share": "Parte",
- "{n} others": {
-  "one": "{n} outra",
-  "other": "{n} outras",
-  "many": "{n} outras"
- },
+ "{n} others": {"one":"{n} outra","other":"{n} outras","many":"{n} outras"},
  "Spot · perpetual": "Spot · perpétuo",
  "Absorption marks": "Marcas de absorção",
  "Absorption is off: switch it on to count its marks here.": "A absorção está desligada: ligue-a para contar as suas marcas aqui.",
@@ -913,11 +889,7 @@
  "Below the value area": "Abaixo da área de valor",
  "Select": "Selecionar",
  "Select an area and add up what traded there: drag across the map for a box, or across a pane under it for a stretch of time. Ctrl+drag (Cmd on a Mac) selects at any time.": "Selecione uma área e some o que se negociou ali: arraste sobre o mapa para uma caixa, ou sobre um painel abaixo para um período. Ctrl+arrastar (Cmd num Mac) seleciona a qualquer momento.",
- "{n} smaller venues": {
-  "one": "{n} exchange menor",
-  "many": "{n} exchanges menores",
-  "other": "{n} exchanges menores"
- },
+ "{n} smaller venues": {"one":"{n} exchange menor","many":"{n} exchanges menores","other":"{n} exchanges menores"},
  "Show the exchange in each bubble": "Mostrar a exchange em cada bolha",
  "Its mark in the middle of every bubble large enough to hold it. Hover a bubble and the other venues step back, so the places that venue traded stand out.": "A sua marca no centro de cada bolha grande o suficiente para a conter. Passe sobre uma bolha e as outras exchanges recuam, para que se destaquem os sítios onde essa exchange negociou.",
  "Flow since {time}: older flow is not available from this source": "Fluxo desde as {time}: o fluxo anterior não está disponível nesta fonte",
@@ -1073,11 +1045,7 @@
  "No flow recorded for these candles yet.": "Ainda não há fluxo registado para estas velas.",
  "Flow is recorded from {time}: the candles before it have none.": "O fluxo é registado desde {time}: as velas anteriores não têm.",
  "flow recorded since {time}": "fluxo registado desde {time}",
- "{n} candles": {
-  "one": "{n} vela",
-  "other": "{n} velas",
-  "many": "{n} velas"
- },
+ "{n} candles": {"one":"{n} vela","other":"{n} velas","many":"{n} velas"},
  "Divergences": "Divergências",
  "CVD divergence": "Divergência de CVD",
  "Swing": "Swing",
@@ -1123,11 +1091,7 @@
  "Import": "Importar",
  "Read layouts from a file written by Export (a name already here is replaced)": "Ler layouts de um ficheiro escrito com Exportar (um nome que já cá esteja é substituído)",
  "This browser did not let the page keep it.": "Este navegador não deixou a página guardá-lo.",
- "Read {n} layouts.": {
-  "one": "{n} layout lido.",
-  "other": "{n} layouts lidos.",
-  "many": "{n} layouts lidos."
- },
+ "Read {n} layouts.": {"one":"{n} layout lido.","other":"{n} layouts lidos.","many":"{n} layouts lidos."},
  "Go to": "Ir para",
  "Go to a date and time": "Ir para uma data e hora",
  "Go to a date and time (keyboard: G)": "Ir para uma data e hora (teclado: G)",
@@ -1174,22 +1138,14 @@
  "High · low": "Máxima · mínima",
  "The price of {market}, from its {tf} candles.": "O preço de {market}, das suas velas de {tf}.",
  "{venue} spot": "{venue} spot",
- "Counts {n} markets.": {
-  "one": "Conta {n} mercado.",
-  "many": "Conta {n} mercados.",
-  "other": "Conta {n} mercados."
- },
+ "Counts {n} markets.": {"one":"Conta {n} mercado.","many":"Conta {n} mercados.","other":"Conta {n} mercados."},
  "No trades are recorded for {list}: their books are on the map, not in these figures.": "Não há negócios registrados para {list}: os livros deles estão no mapa, não nestes números.",
  "Switched off or outside the Spot / Perp filter: {list}.": "Desligados ou fora do filtro Spot / Perp: {list}.",
  "{value} · {share} of the volume": "{value} · {share} do volume",
  "bought at {buy} · sold at {sell}": "comprado a {buy} · vendido a {sell}",
  "Volume by price": "Volume por preço",
  "Most traded": "Mais negociado",
- "{n} orders": {
-  "one": "{n} ordem",
-  "many": "{n} ordens",
-  "other": "{n} ordens"
- },
+ "{n} orders": {"one":"{n} ordem","many":"{n} ordens","other":"{n} ordens"},
  "What the market orders traded at each price, buys in the bid colour and sells in the ask colour, in bars of {step}.": "O que as ordens a mercado negociaram em cada preço, as compras na cor bid e as vendas na cor ask, em barras de {step}.",
  "Absorbed": "Absorvido",
  "Passive buyers {value} · {share}": "Compradores passivos {value} · {share}",
@@ -1201,11 +1157,7 @@
  "Passive buyers held at": "Compradores passivos seguraram em",
  "Passive sellers held at": "Vendedores passivos seguraram em",
  "A mark is market orders of one side meeting resting orders at one price within 10 ms, more than the exchange's threshold: only the marks the map draws count. Passive buyers take market sells, passive sellers take market buys.": "Uma marca são ordens a mercado de um lado que encontram ordens em espera a um preço em 10 ms, acima do limiar da exchange: só contam as marcas que o mapa desenha. Compradores passivos absorvem vendas a mercado, vendedores passivos absorvem compras a mercado.",
- "What rested inside the box on average over its time, on the {n} order books switched on (those without recorded trades too).": {
-  "one": "O que ficou em espera dentro da caixa em média ao longo do seu tempo, no {n} livro de ofertas ligado (também sem negócios registrados).",
-  "many": "O que ficou em espera dentro da caixa em média ao longo do seu tempo, nos {n} livros de ofertas ligados (também os sem negócios registrados).",
-  "other": "O que ficou em espera dentro da caixa em média ao longo do seu tempo, nos {n} livros de ofertas ligados (também os sem negócios registrados)."
- },
+ "What rested inside the box on average over its time, on the {n} order books switched on (those without recorded trades too).": {"one":"O que ficou em espera dentro da caixa em média ao longo do seu tempo, no {n} livro de ofertas ligado (também sem negócios registrados).","many":"O que ficou em espera dentro da caixa em média ao longo do seu tempo, nos {n} livros de ofertas ligados (também os sem negócios registrados).","other":"O que ficou em espera dentro da caixa em média ao longo do seu tempo, nos {n} livros de ofertas ligados (também os sem negócios registrados)."},
  "Venue lines": "Linhas por corretora",
  "top {n}": "top {n}",
  "Compact: a running-total line for each of the largest venues, ranked by traded volume over the flow column's ranking window. Hover a line to see it alone.": "Compacto: uma linha do acumulado para cada uma das maiores corretoras, ordenadas pelo volume negociado na janela de ranking da coluna de fluxo. Passe sobre uma linha para vê-la sozinha.",
@@ -1223,11 +1175,7 @@
  "{n} venues added together": "{n} corretoras somadas",
  "All perpetuals": "Todos os perpétuos",
  "With the OI pane's Venues on All perpetuals (the default), each venue's change of open interest is given to the side that traded at market on that venue, and the venues are then added up: one venue's buyers say nothing about who opened positions on another.": "Com Exchanges do painel OI em Todos os perpétuos (padrão), a variação de open interest de cada corretora vai para o lado que negociou a mercado nela, e depois as corretoras são somadas: os compradores de uma corretora não dizem nada sobre quem abriu posições em outra.",
- "{n} more venues": {
-  "many": "mais {n} exchanges",
-  "one": "mais {n} exchange",
-  "other": "mais {n} exchanges"
- },
+ "{n} more venues": {"many":"mais {n} exchanges","one":"mais {n} exchange","other":"mais {n} exchanges"},
  "{n} of {m} venues": "{n} de {m} exchanges",
  "Both ways": "Nos dois sentidos",
  "takers even": "takers empatados",
@@ -1382,11 +1330,7 @@
  "Could not record a GIF here": "Não foi possível gravar um GIF aqui",
  "Finishing…": "Finalizando…",
  "{size} · {s} s · {fps} fps": "{size} · {s} s · {fps} fps",
- "{w} × {h} px, {n} frames": {
-  "one": "{w} × {h} px, {n} quadro",
-  "many": "{w} × {h} px, {n} quadros",
-  "other": "{w} × {h} px, {n} quadros"
- },
+ "{w} × {h} px, {n} frames": {"one":"{w} × {h} px, {n} quadro","many":"{w} × {h} px, {n} quadros","other":"{w} × {h} px, {n} quadros"},
  "Kept under {mb} MB: the GIF ends at {s} s": "Mantido abaixo de {mb} MB: o GIF termina em {s} s",
  "Kept under {mb} MB: the frame rate went down to {fps} a second": "Mantido abaixo de {mb} MB: a taxa de quadros caiu para {fps} por segundo",
  "The page was hidden, so the GIF ends at {s} s": "A página ficou oculta, então o GIF termina em {s} s",
@@ -1500,11 +1444,7 @@
  "Profiles of what traded, beside the map and along the top of the chart: how much was bought and sold at market at each price, and in each stretch of time, over the time on the map. Next to the resting liquidity, it shows which levels have actually changed hands, and when.": "Perfis do que foi negociado, ao lado do mapa e ao longo do topo do gráfico: quanto foi comprado e vendido a mercado em cada preço, e em cada intervalo de tempo, durante o tempo do mapa. Ao lado da liquidez em espera, mostra que níveis mudaram mesmo de mãos, e quando.",
  "In the settings a grid sets where each measure is drawn (traded volume, the change in open interest, absorption or liquidations): as a column right or left of the map, the left ones mirrored so both face the chart, or as a band along the top, where the same profile is laid on the time axis: one bar for each stretch, from a second to a day as the zoom allows, growing down from the top, with the busiest stretch as its point of control and the value area around it. Up to three bands stack. What has no room stays switched on and is said, in the panel and on the map. Point at a bar for its figures; click a band's header for these settings.": "Nas definições, uma grelha define onde cada medida é desenhada (volume negociado, variação do open interest, absorção ou liquidações): como coluna à direita ou à esquerda do mapa, as da esquerda em espelho para que ambas olhem para o gráfico, ou como faixa ao longo do topo, onde o mesmo perfil é estendido sobre o eixo do tempo: uma barra por cada intervalo, de um segundo a um dia conforme o zoom, a crescer de cima para baixo, com o intervalo mais ativo como ponto de controle e a área de valor à volta. Empilham-se até três faixas. O que não cabe continua ligado e é indicado, no painel e no mapa. Aponte para uma barra para ver os seus números; clique no cabeçalho de uma faixa para estas definições.",
  "OI change": "Variação de OI",
- "{n} hidden for space": {
-  "one": "{n} oculto por falta de espaço",
-  "many": "{n} ocultos por falta de espaço",
-  "other": "{n} ocultos por falta de espaço"
- },
+ "{n} hidden for space": {"one":"{n} oculto por falta de espaço","many":"{n} ocultos por falta de espaço","other":"{n} ocultos por falta de espaço"},
  "Where each measure is drawn": "Onde cada medida é desenhada",
  "The profiles beside the map and along the top of the chart, and the point-of-control lines on the chart.": "Os perfis ao lado do mapa e ao longo do topo do gráfico, e as linhas do ponto de controle no gráfico.",
  "A phone has no room for the columns: it draws the first band along the top, and the lines on the chart.": "Num telemóvel não há espaço para as colunas: desenha a primeira faixa do topo e as linhas no gráfico.",
@@ -1525,11 +1465,7 @@
  "{measure} right of the map": "{measure} à direita do mapa",
  "{measure} left of the map": "{measure} à esquerda do mapa",
  "{measure} along the top": "{measure} no topo",
- "{n} profiles hidden for space: {which}. They stay switched on and show when there is room: a wider window, a taller chart, or fewer profiles.": {
-  "one": "{n} perfil oculto por falta de espaço: {which}. Continua ligado e aparece quando houver espaço: uma janela mais larga, um gráfico mais alto ou menos perfis.",
-  "many": "{n} perfis ocultos por falta de espaço: {which}. Continuam ligados e aparecem quando houver espaço: uma janela mais larga, um gráfico mais alto ou menos perfis.",
-  "other": "{n} perfis ocultos por falta de espaço: {which}. Continuam ligados e aparecem quando houver espaço: uma janela mais larga, um gráfico mais alto ou menos perfis."
- },
+ "{n} profiles hidden for space: {which}. They stay switched on and show when there is room: a wider window, a taller chart, or fewer profiles.": {"one":"{n} perfil oculto por falta de espaço: {which}. Continua ligado e aparece quando houver espaço: uma janela mais larga, um gráfico mais alto ou menos perfis.","many":"{n} perfis ocultos por falta de espaço: {which}. Continuam ligados e aparecem quando houver espaço: uma janela mais larga, um gráfico mais alto ou menos perfis.","other":"{n} perfis ocultos por falta de espaço: {which}. Continuam ligados e aparecem quando houver espaço: uma janela mais larga, um gráfico mais alto ou menos perfis."},
  "Chart window": "Janela do gráfico",
  "Everything on the chart, as the columns add it up": "Tudo o que está no gráfico, como as colunas o somam",
  "No lines are ticked above: these settings draw nothing until one is.": "Nenhuma linha marcada acima: estas configurações não desenham nada até que uma seja marcada.",
@@ -1607,11 +1543,7 @@
  "Where cvd, cvd retail and cvd whales start: the chart's left edge, or each day's start in the chart's time zone (the day the left edge falls in is loaded whole).": "Onde começam cvd, cvd varejo e cvd baleias: na borda esquerda do gráfico ou no início de cada dia no fuso do gráfico (o dia em que cai a borda esquerda é carregado inteiro).",
  "Each day's start": "O início de cada dia",
  "Click a candle to pin it: a card lists every statistic for that candle until it is clicked again or Esc is pressed. Shift+click pins more candles to compare them side by side (up to five). Cells can be shaded by how unusual each candle is against its own recent ones (Unusual, the Highlights' baseline) or drawn as lines, and rows can be grouped by kind under headers that fold away. CVD from each day's start makes the running sums start again at every day in the chart's time zone.": "Clique numa vela para a fixar: um cartão lista cada estatística dessa vela até clicar de novo ou premir Esc. Shift+clique fixa mais velas para as comparar lado a lado (até cinco). As células podem ser sombreadas por quão incomum cada vela é face às suas próprias velas recentes (Incomum, a base dos Destaques) ou desenhadas como linhas, e as linhas podem ser agrupadas por tipo sob cabeçalhos que se recolhem. CVD desde o início de cada dia faz as somas acumuladas recomeçarem todos os dias no fuso do gráfico.",
- "{n} stats · cvd from each day's start": {
-  "one": "{n} estatística · CVD desde o início de cada dia",
-  "other": "{n} estatísticas · CVD desde o início de cada dia",
-  "many": "{n} estatísticas · CVD desde o início de cada dia"
- },
+ "{n} stats · cvd from each day's start": {"one":"{n} estatística · CVD desde o início de cada dia","other":"{n} estatísticas · CVD desde o início de cada dia","many":"{n} estatísticas · CVD desde o início de cada dia"},
  "Series": "Série",
  "Reading the market orders of this candle…": "A ler as ordens a mercado desta vela…",
  "The market orders of this candle could not be read.": "Não foi possível ler as ordens a mercado desta vela.",
@@ -1693,17 +1625,9 @@
  "A script runs again at most once a second, and less often when it is slow: four times as long apart as it takes. One that loops too long, or grows too large, is stopped and says where.": "Um script volta a correr no máximo uma vez por segundo, e menos vezes quando é lento: com um intervalo de quatro vezes o tempo que demora. Um que fique demasiado tempo num ciclo, ou que cresça demasiado, é parado e diz onde.",
  "Scripts…": "Scripts…",
  "Write, switch on and off, import and export your scripts.": "Escreva, ligue e desligue, importe e exporte os seus scripts.",
- "{n} scripts on": {
-  "one": "{n} script ligado",
-  "other": "{n} scripts ligados",
-  "many": "{n} scripts ligados"
- },
+ "{n} scripts on": {"one":"{n} script ligado","other":"{n} scripts ligados","many":"{n} scripts ligados"},
  "running…": "a correr…",
- "{n} warnings": {
-  "one": "{n} aviso",
-  "other": "{n} avisos",
-  "many": "{n} avisos"
- },
+ "{n} warnings": {"one":"{n} aviso","other":"{n} avisos","many":"{n} avisos"},
  "The script ends before this is complete.": "O script termina antes de isto estar completo.",
  "Expected {what} here.": "Esperava-se {what} aqui.",
  "Two statements on one line: put a line break or a semicolon between them.": "Duas instruções numa linha: ponha uma quebra de linha ou um ponto e vírgula entre elas.",
@@ -1747,11 +1671,7 @@
  "No scripts yet.": "Ainda não há scripts.",
  "not run yet": "ainda não executado",
  "error": "erro",
- "{n} plots": {
-  "one": "{n} traçado",
-  "other": "{n} traçados",
-  "many": "{n} traçados"
- },
+ "{n} plots": {"one":"{n} traçado","other":"{n} traçados","many":"{n} traçados"},
  "“{name}” is on.": "“{name}” está ligado.",
  "“{name}” is off.": "“{name}” está desligado.",
  "Delete this script (press twice)": "Apagar este script (prima duas vezes)",
@@ -1767,11 +1687,7 @@
  "Imported script": "Script importado",
  "The file is too large to be scripts.": "O ficheiro é demasiado grande para ser scripts.",
  "The file holds no script this page can read.": "O ficheiro não tem nenhum script que esta página consiga ler.",
- "Read {n} scripts: switch them on to run them.": {
-  "one": "{n} script lido: ligue-o para o executar.",
-  "other": "{n} scripts lidos: ligue-os para os executar.",
-  "many": "{n} scripts lidos: ligue-os para os executar."
- },
+ "Read {n} scripts: switch them on to run them.": {"one":"{n} script lido: ligue-o para o executar.","other":"{n} scripts lidos: ligue-os para os executar.","many":"{n} scripts lidos: ligue-os para os executar."},
  "Write the scripts to a file, to keep them or use them in another browser": "Escrever os scripts num ficheiro, para os guardar ou usar noutro navegador",
  "Read scripts from a file: one written by Export, an indicator file or a workspace from another charting page, or a script as text": "Ler scripts de um ficheiro: um escrito com Exportar, um ficheiro de indicador ou um espaço de trabalho de outra página de gráficos, ou um script como texto",
  "Each candle runs the script once. A name set without var (x = ...) keeps its value from candle to candle and starts at 0; x[1] is its value one candle back. A var starts again each candle.": "Cada vela executa o script uma vez. Um nome atribuído sem var (x = ...) mantém o seu valor de vela para vela e começa em 0; x[1] é o seu valor uma vela atrás. Uma var recomeça em cada vela.",
@@ -1803,24 +1719,12 @@
  "“{name}” stopped with an error: open Scripts to see it.": "«{name}» parou com um erro: abra Scripts para o ver.",
  "Switch this script off (it stays in Scripts…)": "Desligar este script (fica em Scripts…)",
  "Switch off the scripts in this panel (they stay in Scripts…)": "Desligar os scripts deste painel (ficam em Scripts…)",
- "Switched off {n} scripts in this panel.": {
-  "many": "{n} scripts deste painel desligados.",
-  "one": "{n} script deste painel desligado.",
-  "other": "{n} scripts deste painel desligados."
- },
+ "Switched off {n} scripts in this panel.": {"many":"{n} scripts deste painel desligados.","one":"{n} script deste painel desligado.","other":"{n} scripts deste painel desligados."},
  "Stochastic heat map": "Mapa de calor estocástico",
  "Buyer and seller VWAPs": "VWAP de compradores e vendedores",
  "Volume anomalies": "Anomalias de volume",
- "+{n} more plots": {
-  "one": "+{n} traçado a mais",
-  "other": "+{n} traçados a mais",
-  "many": "+{n} traçados a mais"
- },
- "+{n} more scripts": {
-  "one": "+{n} script a mais",
-  "other": "+{n} scripts a mais",
-  "many": "+{n} scripts a mais"
- },
+ "+{n} more plots": {"one":"+{n} traçado a mais","other":"+{n} traçados a mais","many":"+{n} traçados a mais"},
+ "+{n} more scripts": {"one":"+{n} script a mais","other":"+{n} scripts a mais","many":"+{n} scripts a mais"},
  "Copy for AI": "Copiar para IA",
  "Copy the script, its errors and what it drew, with the language's rules, to paste into an AI assistant": "Copiar o script, os seus erros e o que desenhou, com as regras da linguagem, para colar num assistente de IA",
  "Copied. Paste it into your AI assistant, then paste its answer back here and press Check.": "Copiado. Cole-o no seu assistente de IA, depois cole aqui a resposta e prima Verificar.",
@@ -1921,11 +1825,7 @@
  "Close the drawing tools (D); the drawings stay on the map": "Fechar as ferramentas de desenho (D); os desenhos ficam no mapa",
  "Magnet: {mode}": "Íman: {mode}",
  "Magnet: {mode}. Weak lands a point on the open, high, low or close of the candle under the pointer when it is within a few pixels, Strong from further, Off never; walls of resting liquidity too while that is on in Drawings. Hold Alt to place freely. Click to change.": "Íman: {mode}. Fraco coloca um ponto na abertura, máxima, mínima ou fecho da vela sob o ponteiro quando está a poucos píxeis, Forte de mais longe, Não nunca; também nos muros de liquidez em espera enquanto isso estiver ligado em Desenhos. Mantenha Alt premida para colocar livremente. Clique para mudar.",
- "{n} drawings": {
-  "one": "{n} desenho",
-  "many": "{n} desenhos",
-  "other": "{n} desenhos"
- },
+ "{n} drawings": {"one":"{n} desenho","many":"{n} desenhos","other":"{n} desenhos"},
  "Drawings are shown but not changed during a replay.": "Durante uma repetição, os desenhos são mostrados mas não alterados.",
  "Colour": "Cor",
  "Line width": "Espessura da linha",
@@ -1962,11 +1862,7 @@
  "Draw them on the map. Hidden, they are kept as they are.": "Desenhá-los no mapa. Ocultos, ficam guardados tal como estão.",
  "Lock all": "Bloquear tudo",
  "Nothing can be added, moved, changed or deleted until unlocked.": "Nada pode ser adicionado, movido, alterado ou apagado até desbloquear.",
- "This coin: {n} drawings": {
-  "one": "Esta moeda: {n} desenho",
-  "many": "Esta moeda: {n} desenhos",
-  "other": "Esta moeda: {n} desenhos"
- },
+ "This coin: {n} drawings": {"one":"Esta moeda: {n} desenho","many":"Esta moeda: {n} desenhos","other":"Esta moeda: {n} desenhos"},
  "None yet. Pick a tool in the rail, then click on the map.": "Ainda nenhum. Escolha uma ferramenta na barra e depois clique no mapa.",
  "Select it and show it on the map": "Selecioná-lo e mostrá-lo no mapa",
  "Unlock": "Desbloquear",
@@ -2017,16 +1913,8 @@
  "Close {price}": "Fecho {price}",
  "Wall {usd} at {price}": "Muro de {usd} a {price}",
  "For a breakout or failed break, the dashed line is the break level it went through and the dotted one the next level, the far side of the range it moves into. Point at a mark for its levels, its candle's order flow, liquidations and open interest, and where it stood against the day's, week's and month's opens (and the hour's, on charts of an hour or less).": "Num Breakout ou Failed break, a linha tracejada é o nível de rompimento atravessado e a pontilhada o nível seguinte, o outro lado da faixa para onde vai. Passe sobre uma marca para ver seus níveis, o fluxo de ordens, as liquidações e o open interest da vela, e onde ela estava em relação às aberturas do dia, da semana e do mês (e da hora, em gráficos de uma hora ou menos).",
- "{n} left out: a coin keeps 100 and the page 1,000.": {
-  "one": "{n} ficou de fora: uma moeda guarda 100 e a página 1000.",
-  "many": "{n} ficaram de fora: uma moeda guarda 100 e a página 1000.",
-  "other": "{n} ficaram de fora: uma moeda guarda 100 e a página 1000."
- },
- "{n} drawings added.": {
-  "one": "{n} desenho adicionado.",
-  "many": "{n} desenhos adicionados.",
-  "other": "{n} desenhos adicionados."
- },
+ "{n} left out: a coin keeps 100 and the page 1,000.": {"one":"{n} ficou de fora: uma moeda guarda 100 e a página 1000.","many":"{n} ficaram de fora: uma moeda guarda 100 e a página 1000.","other":"{n} ficaram de fora: uma moeda guarda 100 e a página 1000."},
+ "{n} drawings added.": {"one":"{n} desenho adicionado.","many":"{n} desenhos adicionados.","other":"{n} desenhos adicionados."},
  "Drag to size the window; a double click gives back its size": "Arraste para redimensionar a janela; um duplo clique devolve-lhe o tamanho",
  "It is recorded while this page is open: there is no way to fetch what the order books looked like in the past, so the map starts at the moment you opened the page and grows to the right, from a dashed line that says when the recording began.": "Ele é gravado enquanto esta página está aberta: não há como buscar o que os livros de ofertas eram no passado, então o mapa começa no momento em que você abriu a página e cresce para a direita, a partir de uma linha tracejada que indica quando a gravação começou.",
  "Depth bands": "Bandas de profundidade",
@@ -2217,11 +2105,7 @@
  "RVWAP": "RVWAP",
  "The average price the market traded at, weighted by volume, since a session began, over the last days or since a moment you choose: where buyers and sellers have done business on average.": "O preço médio a que o mercado negociou, ponderado pelo volume, desde o início de uma sessão, nos últimos dias ou desde um momento que escolher: onde compradores e vendedores fizeram negócio em média.",
  "A rolling VWAP (RVWAP) is the average over the last day, week, month, quarter, half year or year up to each moment. Its start moves with time, so the oldest trades drop out, where a session or an anchor keeps every trade since its start. It is worked out from bars of its own (five minutes for a day up to four hours for a year), the newest read again each minute, so it is the same at every timeframe, and it is drawn only where the history holds a whole window.": "Um VWAP móvel (RVWAP) é a média do último dia, semana, mês, trimestre, semestre ou ano até cada momento. O seu início avança com o tempo, por isso as negociações mais antigas saem, enquanto uma sessão ou uma âncora guarda cada negociação desde o seu início. É calculado a partir de barras próprias (de cinco minutos para um dia a quatro horas para um ano), as mais recentes relidas a cada minuto, por isso é o mesmo em qualquer timeframe, e só é desenhado onde o histórico contém uma janela inteira.",
- "{n} days up to now": {
-  "one": "{n} dia até agora",
-  "many": "{n} dias até agora",
-  "other": "{n} dias até agora"
- },
+ "{n} days up to now": {"one":"{n} dia até agora","many":"{n} dias até agora","other":"{n} dias até agora"},
  "Candles from": "Velas de",
  "Up to six markets: untick one to choose another.": "Até seis mercados: desmarque um para escolher outro.",
  "{market}: its candles could not be read just now; trying again in a minute. The lines wait for it.": "{market}: não foi possível ler as suas velas agora; nova tentativa dentro de um minuto. As linhas esperam por ele.",
@@ -2330,17 +2214,9 @@
  "book re-synchronising ({reason})": "ressincronizando o livro de ofertas ({reason})",
  "no usable book right now (crossed or one-sided)": "nenhum livro de ofertas utilizável agora (cruzado ou de um só lado)",
  "Who opened: the last {n} days": "“Quem abriu”: os últimos {n} dias",
- "Who opened: the last {n} hours": {
-  "many": "“Quem abriu”: últimas {n} horas",
-  "one": "“Quem abriu”: última {n} hora",
-  "other": "“Quem abriu”: últimas {n} horas"
- },
+ "Who opened: the last {n} hours": {"many":"“Quem abriu”: últimas {n} horas","one":"“Quem abriu”: última {n} hora","other":"“Quem abriu”: últimas {n} horas"},
  "last {n} days": "últimos {n} dias",
- "last {n} hours": {
-  "many": "últimas {n} horas",
-  "one": "última {n} hora",
-  "other": "últimas {n} horas"
- },
+ "last {n} hours": {"many":"últimas {n} horas","one":"última {n} hora","other":"últimas {n} horas"},
  "{market}'s high went {bp} bp past where most of the chosen markets stopped ({price}).": "O máximo de {market} subiu {bp} pb acima de onde a maior parte dos mercados escolhidos parou ({price}).",
  "{market}'s low went {bp} bp past where most of the chosen markets stopped ({price}).": "O mínimo de {market} caiu {bp} pb abaixo de onde a maior parte dos mercados escolhidos parou ({price}).",
  "{markets}, {n}-minute blocks": "{markets}, blocos de {n} minutos",
@@ -2539,11 +2415,7 @@
  "In each NL/NS bar the side that made the change is drawn stronger and the other fainter, the more one-sided the more. Drag across the pane with Select armed, or Ctrl+drag (Cmd on a Mac), to sum up a stretch of its candles in the Range panel.": "Em cada barra NL/NS, o lado que fez a variação é desenhado mais forte e o outro mais fraco, tanto mais quanto mais unilateral. Arraste sobre o painel com Selecionar ativado, ou Ctrl+arrastar (Cmd num Mac), para somar um trecho das suas velas no painel Faixa.",
  "The OI pane last drew another market or timeframe: show it to sum up this selection.": "O painel OI desenhou por último outro mercado ou timeframe: exiba-o para resumir esta seleção.",
  "No {tf} candle of the OI pane starts in this range.": "Nenhuma vela de {tf} do painel OI começa neste intervalo.",
- "{n} candles of {tf}": {
-  "one": "{n} vela de {tf}",
-  "many": "{n} velas de {tf}",
-  "other": "{n} velas de {tf}"
- },
+ "{n} candles of {tf}": {"one":"{n} vela de {tf}","many":"{n} velas de {tf}","other":"{n} velas de {tf}"},
  "forming": "em formação",
  "The OI pane is hidden: these are the bars it last held.": "O painel OI está oculto: estas são as barras que ele tinha por último.",
  "Open interest uses all prices.": "O open interest usa todos os preços.",
@@ -2551,11 +2423,7 @@
  "unavailable: no candle with a reading before it": "indisponível: nenhuma vela com uma leitura antes dela",
  "In USD, at bar prices": "Em USD, aos preços das barras",
  "Price, {market}": "Preço, {market}",
- "Previous {n} candles ({span})": {
-  "one": "{n} vela anterior ({span})",
-  "many": "{n} velas anteriores ({span})",
-  "other": "{n} velas anteriores ({span})"
- },
+ "Previous {n} candles ({span})": {"one":"{n} vela anterior ({span})","many":"{n} velas anteriores ({span})","other":"{n} velas anteriores ({span})"},
  "{k} of {n} candles": "{k} de {n} velas",
  "so far": "até agora",
  "Against what is held": "Em comparação com o que há",
@@ -2563,11 +2431,7 @@
  "Largest sampled fall": "Maior queda amostrada",
  "Marked by Highlights": "Marcado por Destaques",
  "Details": "Detalhes",
- "{n} candles' changes unknown": {
-  "one": "Variação de {n} vela desconhecida",
-  "many": "Variações de {n} velas desconhecidas",
-  "other": "Variações de {n} velas desconhecidas"
- },
+ "{n} candles' changes unknown": {"one":"Variação de {n} vela desconhecida","many":"Variações de {n} velas desconhecidas","other":"Variações de {n} velas desconhecidas"},
  "some changes span more than one candle": "algumas variações abrangem mais de uma vela",
  "the {tf} candles that start in the selection": "as velas de {tf} que começam na seleção",
  "before {time} the line is Bybit's scaled estimate, not counted": "antes de {time} a linha é a estimativa escalada da Bybit, não contada",
@@ -2606,22 +2470,10 @@
  "The Delta pane has not drawn this market yet: show it to sum up this selection.": "O painel Delta ainda não desenhou este mercado: exiba-o para resumir esta seleção.",
  "The Delta pane last drew another market, timeframe or setting: show it to sum up this selection.": "O painel Delta desenhou por último outro mercado, timeframe ou configuração: exiba-o para resumir esta seleção.",
  "No {tf} candle of the Delta pane starts in this range.": "Nenhuma vela de {tf} do painel Delta começa neste intervalo.",
- "Recorded taker flow of {n} markets of the flow column": {
-  "one": "Fluxo dos takers registrado de {n} mercado da coluna de fluxo",
-  "many": "Fluxo dos takers registrado de {n} mercados da coluna de fluxo",
-  "other": "Fluxo dos takers registrado de {n} mercados da coluna de fluxo"
- },
+ "Recorded taker flow of {n} markets of the flow column": {"one":"Fluxo dos takers registrado de {n} mercado da coluna de fluxo","many":"Fluxo dos takers registrado de {n} mercados da coluna de fluxo","other":"Fluxo dos takers registrado de {n} mercados da coluna de fluxo"},
  "Recorded taker flow of {lo}–{hi} of the flow column's {n} markets": "Fluxo dos takers registrado de {lo}–{hi} dos {n} mercados da coluna de fluxo",
- "{n} candles without recorded flow": {
-  "one": "{n} vela sem fluxo registrado",
-  "many": "{n} velas sem fluxo registrado",
-  "other": "{n} velas sem fluxo registrado"
- },
- "{n} candles left out: no trade on any market for 10 min or more": {
-  "one": "{n} vela excluída: nenhuma negociação em nenhum mercado por 10 min ou mais",
-  "many": "{n} velas excluídas: nenhuma negociação em nenhum mercado por 10 min ou mais",
-  "other": "{n} velas excluídas: nenhuma negociação em nenhum mercado por 10 min ou mais"
- },
+ "{n} candles without recorded flow": {"one":"{n} vela sem fluxo registrado","many":"{n} velas sem fluxo registrado","other":"{n} velas sem fluxo registrado"},
+ "{n} candles left out: no trade on any market for 10 min or more": {"one":"{n} vela excluída: nenhuma negociação em nenhum mercado por 10 min ou mais","many":"{n} velas excluídas: nenhuma negociação em nenhum mercado por 10 min ou mais","other":"{n} velas excluídas: nenhuma negociação em nenhum mercado por 10 min ou mais"},
  "the CVD starts again inside it": "o CVD recomeça dentro dele",
  "The Delta pane is hidden: these are the candles it last held.": "O painel Delta está oculto: estas são as velas que ele tinha por último.",
  "Delta uses all prices.": "O delta usa todos os preços.",
@@ -2677,11 +2529,7 @@
  "Last close in whole range": "Último fecho em toda a faixa",
  "Candle volume / bp of whole range": "Volume da vela / pb de toda a faixa",
  "The running sum's change over the selection: the same as its delta.": "A variação da soma corrente na seleção: igual ao seu delta.",
- "{n} minutes unknown": {
-  "one": "{n} minuto desconhecido",
-  "many": "{n} minutos desconhecidos",
-  "other": "{n} minutos desconhecidos"
- },
+ "{n} minutes unknown": {"one":"{n} minuto desconhecido","many":"{n} minutos desconhecidos","other":"{n} minutos desconhecidos"},
  "per candle only": "só por vela",
  "Each candle's point of control against the one before it: no total over a stretch.": "O ponto de controle de cada vela contra o da anterior: sem total em um trecho.",
  "Net buying / price down": "Compra líquida / preço em queda",
@@ -2699,28 +2547,16 @@
  "The Bar stats pane last drew another market, timeframe or choice of stats: show it to sum up this selection.": "O painel Estatísticas de barra desenhou por último outro mercado, timeframe ou conjunto de estatísticas: exiba-o para resumir esta seleção.",
  "The Bar stats pane has not drawn this market yet: show it to sum up this selection.": "O painel Estatísticas de barra ainda não desenhou este mercado: exiba-o para resumir esta seleção.",
  "No {tf} candle of the Bar stats pane starts in this range.": "Nenhuma vela de {tf} do painel Estatísticas de barra começa neste intervalo.",
- "{n} markets of the footprint": {
-  "one": "{n} mercado do footprint",
-  "many": "{n} mercados do footprint",
-  "other": "{n} mercados do footprint"
- },
+ "{n} markets of the footprint": {"one":"{n} mercado do footprint","many":"{n} mercados do footprint","other":"{n} mercados do footprint"},
  "candles of {market}": "velas de {market}",
- "open interest of {n} markets": {
-  "one": "open interest de {n} mercado",
-  "many": "open interest de {n} mercados",
-  "other": "open interest de {n} mercados"
- },
+ "open interest of {n} markets": {"one":"open interest de {n} mercado","many":"open interest de {n} mercados","other":"open interest de {n} mercados"},
  "The Bar stats pane is hidden: these are the candles it last held.": "O painel Estatísticas de barra está oculto: estas são as velas que ele tinha por último.",
  "Bar stats use all prices.": "As estatísticas de barra usam todos os preços.",
  "Candles with executions held": "Velas com execuções gravadas",
  "{k} of {n}": "{k} de {n}",
  "Recorded minutes held": "Minutos gravados",
  "Coverage unknown": "Cobertura desconhecida",
- "{n} minutes": {
-  "one": "{n} minuto",
-  "many": "{n} minutos",
-  "other": "{n} minutos"
- },
+ "{n} minutes": {"one":"{n} minuto","many":"{n} minutos","other":"{n} minutos"},
  "Recorded minutes, any market": "Minutos gravados, qualquer mercado",
  "A minute counts once any market counted has a trade recorded in it, not every market.": "Um minuto conta quando qualquer mercado contado tem uma negociação gravada nele, não todos os mercados.",
  "Over the selection": "Na seleção",
@@ -2765,11 +2601,7 @@
  "Time mean over covered time": "Média no tempo sobre o tempo coberto",
  "Last held share against the time mean": "Última parte mantida contra a média no tempo",
  "Covered by readings": "Coberto por leituras",
- "{n} readings · nominal period {period}": {
-  "one": "{n} leitura · período nominal {period}",
-  "many": "{n} leituras · período nominal {period}",
-  "other": "{n} leituras · período nominal {period}"
- },
+ "{n} readings · nominal period {period}": {"one":"{n} leitura · período nominal {period}","many":"{n} leituras · período nominal {period}","other":"{n} leituras · período nominal {period}"},
  "at 50 %: {time}": "em 50 %: {time}",
  "Changes over shared moments": "Variações nos momentos comuns",
  "Highest minus lowest long share at those moments": "Parte em long mais alta menos a mais baixa nesses momentos",
@@ -2818,16 +2650,8 @@
  "Each settlement counts for the interval it paid for, as the steps draw it; the share of time is of the time the settlements represent.": "Cada pagamento conta pelo intervalo que cobria, como os degraus o desenham; a parte do tempo é do tempo que os pagamentos representam.",
  "Lowest – highest rate": "Taxa mais baixa – mais alta",
  "Time-weighted mean rate": "Taxa média ponderada pelo tempo",
- "{n} completed hourly records": {
-  "one": "{n} registro horário concluído",
-  "many": "{n} registros horários concluídos",
-  "other": "{n} registros horários concluídos"
- },
- "{n} settlements represent part or all of this selection": {
-  "one": "{n} pagamento representa parte ou toda esta seleção",
-  "many": "{n} pagamentos representam parte ou toda esta seleção",
-  "other": "{n} pagamentos representam parte ou toda esta seleção"
- },
+ "{n} completed hourly records": {"one":"{n} registro horário concluído","many":"{n} registros horários concluídos","other":"{n} registros horários concluídos"},
+ "{n} settlements represent part or all of this selection": {"one":"{n} pagamento representa parte ou toda esta seleção","many":"{n} pagamentos representam parte ou toda esta seleção","other":"{n} pagamentos representam parte ou toda esta seleção"},
  "{list} intervals": "intervalos de {list}",
  "Current-hour funding estimate": "Estimativa do financiamento da hora atual",
  "Indicative funding now": "Financiamento indicativo agora",
@@ -2843,11 +2667,7 @@
  "Base-rate premium band": "Banda do prêmio na taxa base",
  "Readings inside the band": "Leituras dentro da banda",
  "Readings below / above it": "Leituras abaixo / acima dela",
- "{n} completed readings": {
-  "one": "{n} leitura concluída",
-  "many": "{n} leituras concluídas",
-  "other": "{n} leituras concluídas"
- },
+ "{n} completed readings": {"one":"{n} leitura concluída","many":"{n} leituras concluídas","other":"{n} leituras concluídas"},
  "Inside the band funding settles at the base rate; readings are samples, not time spent.": "Dentro da banda o financiamento é pago na taxa base; as leituras são amostras, não tempo gasto.",
  "Who opened (estimate)": "Quem abriu (estimativa)",
  "Buyer-led OI additions {amount}": "Aumentos de OI puxados por compradores {amount}",
@@ -2856,11 +2676,7 @@
  "No sided additions estimated in these hours.": "Nenhum aumento atribuído a um lado foi estimado nestas horas.",
  "No closed hour of who opened lies wholly inside this selection.": "Nenhuma hora fechada de “quem abriu” fica inteira dentro desta seleção.",
  "{hours} held. Share of sided positive OI additions, estimated from minute open interest and taker flow; not counted openings.": "Mantidas: {hours}. Parte dos aumentos positivos de OI atribuídos a um lado, estimada a partir do open interest por minuto e do fluxo dos takers; não são aberturas contadas.",
- "{n} closed hourly estimates": {
-  "one": "{n} estimativa horária fechada",
-  "many": "{n} estimativas horárias fechadas",
-  "other": "{n} estimativas horárias fechadas"
- },
+ "{n} closed hourly estimates": {"one":"{n} estimativa horária fechada","many":"{n} estimativas horárias fechadas","other":"{n} estimativas horárias fechadas"},
  "Positive funding: longs pay shorts. Negative funding: shorts pay longs.": "Financiamento positivo: os longs pagam aos shorts. Financiamento negativo: os shorts pagam aos longs.",
  "After the newest hourly record held": "Depois do registro horário mais recente mantido",
  "No hourly record held": "Nenhum registro horário mantido",
@@ -2881,11 +2697,7 @@
  "Script values are for all prices.": "Os valores dos scripts valem para todos os preços.",
  "Hidden in the pane: left out.": "Oculto no painel: deixado de fora.",
  "the run begins at {time}": "a execução começa às {time}",
- "{n} candles missing": {
-  "one": "falta {n} vela",
-  "other": "faltam {n} velas",
-  "many": "faltam {n} velas"
- },
+ "{n} candles missing": {"one":"falta {n} vela","other":"faltam {n} velas","many":"faltam {n} velas"},
  "newer closed candles are not in its last run": "as velas fechadas mais recentes não estão na sua última execução",
  "Its last run holds {k} of the {n} closed candles in this selection": "A sua última execução contém {k} das {n} velas fechadas desta seleção",
  "No value in this selection": "Sem valor nesta seleção",
@@ -2895,16 +2707,8 @@
  "First value {start} · last {end}": "Primeiro valor {start} · último {end}",
  "{plot}: marks in the script output": "{plot}: marcas na saída do script",
  "{plots}: plots of several fields; a range summary is not available for them yet.": "{plots}: traçados de vários campos; ainda não há resumo para eles.",
- "{n} plots set invisible are left out.": {
-  "one": "{n} traçado posto como invisível fica de fora.",
-  "other": "{n} traçados postos como invisíveis ficam de fora.",
-  "many": "{n} traçados postos como invisíveis ficam de fora."
- },
- "{n} warnings in its last run: see the Scripts panel.": {
-  "one": "{n} aviso na sua última execução: veja o painel Scripts.",
-  "other": "{n} avisos na sua última execução: veja o painel Scripts.",
-  "many": "{n} avisos na sua última execução: veja o painel Scripts."
- },
+ "{n} plots set invisible are left out.": {"one":"{n} traçado posto como invisível fica de fora.","other":"{n} traçados postos como invisíveis ficam de fora.","many":"{n} traçados postos como invisíveis ficam de fora."},
+ "{n} warnings in its last run: see the Scripts panel.": {"one":"{n} aviso na sua última execução: veja o painel Scripts.","other":"{n} avisos na sua última execução: veja o painel Scripts.","many":"{n} avisos na sua última execução: veja o painel Scripts."},
  "Unit not declared by this script.": "Unidade não declarada por este script.",
  "Values are not added up. Shown values and changes are rounded on their own.": "Os valores não são somados. Os valores e as variações mostrados são arredondados cada um por si.",
  "A drag across the Depth pane sums up each band over the columns drawn at this zoom, each counting for the time it overlaps the selection: the mean bids and asks and the first and last column, and the watched band's mean imbalance. Only columns holding every venue's book are measured; bands are never added together. With Liquidation levels it gives the snapshots in force, when their positions stood and were fetched, and each band's first and last levels: potential liquidations, not liquidations that happened.": "Um arrasto sobre o painel Profundidade resume cada banda sobre as colunas desenhadas neste zoom, cada uma contando pelo tempo em que se sobrepõe à seleção: a média dos bids e asks e a primeira e a última coluna, e o desequilíbrio médio da banda observada. Só são medidas as colunas que contêm o livro de todas as exchanges; as bandas nunca são somadas entre si. Com Níveis de liquidação, dá os snapshots em vigor, de quando são as suas posições e quando foram obtidos, e os primeiros e últimos níveis de cada banda: liquidações potenciais, não liquidações que aconteceram.",
@@ -2935,11 +2739,7 @@
  "Columns cover {k} of {span}": "As colunas cobrem {k} de {span}",
  "Based on the columns drawn at this zoom. Each column is weighted by its overlap with the selection; results can change with zoom, and a column across the selection's edge takes in the minute beyond it. Bands overlap and are never added together.": "Com base nas colunas desenhadas neste zoom. Cada coluna é ponderada pela sua sobreposição com a seleção; os resultados podem mudar com o zoom, e uma coluna que atravessa a borda da seleção inclui o minuto além dela. As bandas se sobrepõem e nunca são somadas entre si.",
  "Tracked liquidation levels": "Níveis de liquidação rastreados",
- "{n} snapshots in force": {
-  "one": "{n} snapshot em vigor",
-  "many": "{n} snapshots em vigor",
-  "other": "{n} snapshots em vigor"
- },
+ "{n} snapshots in force": {"one":"{n} snapshot em vigor","many":"{n} snapshots em vigor","other":"{n} snapshots em vigor"},
  "Beyond the liquidation history's reach, left out: {bands}.": "Além do alcance do histórico de liquidação, deixadas de fora: {bands}.",
  "No liquidation levels snapshot was in force in this selection.": "Nenhum snapshot de níveis de liquidação estava em vigor nesta seleção.",
  "First snapshot: positions as of {asOf}, fetched {read}; last: positions as of {asOf2}, fetched {read2}.": "Primeiro snapshot: posições de {asOf}, obtido em {read}; último: posições de {asOf2}, obtido em {read2}.",
@@ -2986,11 +2786,7 @@
  "no window held: {time}": "nenhuma janela mantida: {time}",
  "Windows cover {k} of {span}": "As janelas cobrem {k} de {span}",
  "Windows holding all {n} venues cover {k} of {span}": "As janelas que contêm todas as {n} exchanges cobrem {k} de {span}",
- "{n} included windows": {
-  "one": "{n} janela incluída",
-  "many": "{n} janelas incluídas",
-  "other": "{n} janelas incluídas"
- },
+ "{n} included windows": {"one":"{n} janela incluída","many":"{n} janelas incluídas","other":"{n} janelas incluídas"},
  "Each included window is weighted by its overlap with the selection. Windows missing a venue are left out, so the set of venues stays the same.": "Cada janela incluída é ponderada pela sua sobreposição com a seleção. As janelas sem alguma exchange ficam de fora, para que o conjunto de exchanges continue o mesmo.",
  "No column of this selection has a price centre: one side of the book is empty.": "Nenhuma coluna desta seleção tem centro de preço: um lado do livro está vazio.",
  "Each pane under the map has its own Range button in its header, the dashed box before its menu: press it, then drag across that pane to sum it up in its terms (it lights while it waits for the drag and while the panel shows that pane). The panel opens beside the selection, and stays where you drag it.": "Cada painel sob o mapa tem o seu próprio botão Faixa no cabeçalho, a caixa tracejada antes do seu menu: carregue nele e arraste sobre esse painel para o resumir nos seus próprios termos (fica aceso enquanto espera pelo arrasto e enquanto o painel de resumo mostra esse painel). O painel abre ao lado da seleção e fica onde o arrastar.",
@@ -3025,11 +2821,7 @@
  "Covered by hourly records": "Coberto por registros horários",
  "Covered by settlements": "Coberto por pagamentos",
  "Combined level": "Nível combinado",
- "Rank among the {n}-candle windows held": {
-  "one": "Posição entre as janelas de {n} vela mantidas",
-  "many": "Posição entre as janelas de {n} velas mantidas",
-  "other": "Posição entre as janelas de {n} velas mantidas"
- },
+ "Rank among the {n}-candle windows held": {"one":"Posição entre as janelas de {n} vela mantidas","many":"Posição entre as janelas de {n} velas mantidas","other":"Posição entre as janelas de {n} velas mantidas"},
  "#{r} of {m} by size of change (closed, overlapping windows)": "n.º {r} de {m} por tamanho da variação (janelas fechadas, sobrepostas)",
  "OI from {levels} of {n} venues (changes from {changes})": "OI de {levels} de {n} corretoras (variações de {changes})",
  "opposite to the total": "contrário ao total",
@@ -3068,11 +2860,7 @@
  "Orders may be missing here: the stream reconnected.": "Aqui podem faltar ordens: o stream voltou a ligar-se.",
  "Each order": "Cada ordem",
  "1 second": "1 segundo",
- "{n} seconds": {
-  "one": "{n} segundo",
-  "many": "{n} segundos",
-  "other": "{n} segundos"
- },
+ "{n} seconds": {"one":"{n} segundo","many":"{n} segundos","other":"{n} segundos"},
  "Group by": "Agrupar por",
  "Block details": "Detalhes do bloco",
  "Custom…": "Personalizada…",
@@ -3127,115 +2915,15 @@
  "A low is strong once the rise away from it breaks the swing high it fell from (buyers took over there), and weak until then; a high, likewise, once the fall from it breaks the low it rose from. A level runs on to the right edge with its name and price until the price trades at it again; a tested one ends there, hidden unless Tested levels shows it, with a cross.": "Um fundo é forte quando a alta a partir dele rompe o topo de swing de onde caiu (ali os compradores assumiram), e fraco até então; um topo, da mesma forma, quando a queda a partir dele rompe o fundo de onde subiu. Um nível segue até a borda direita com nome e preço até o preço voltar a negociar nele; um testado termina ali, oculto a menos que “Tested levels” o mostre, com uma cruz.",
  "The swing size, whether a break counts by the close or the wick, the colours and the names are settings. It maps where the structure stands, not where price goes: whether a weak level draws price back or a strong one holds has not been tested here.": "O tamanho do swing, se um rompimento conta pelo fechamento ou pelo pavio, as cores e os nomes são configurações. Mostra onde está a estrutura, não para onde o preço vai: não foi testado aqui se um nível fraco atrai o preço de volta ou se um forte segura.",
  "LiquidityMapperFast is free to use: no account, nothing to sign up for, and the code is open source.": "O LiquidityMapperFast é de uso gratuito: sem conta, sem cadastro, e o código é aberto.",
- "It reads public exchange data straight from your browser, and nothing you do here is sent anywhere. Plus, an optional paid part, pays for the servers behind the page and opens the history they store; its checkout is on a page of its own.": "Ele lê dados públicos das exchanges direto no seu navegador, e nada do que você faz aqui é enviado a lugar nenhum. O Plus, uma parte paga opcional, custeia os servidores por trás da página e dá acesso ao histórico que eles guardam; o checkout dele fica em uma página própria.",
  "It is built in free time, so things can occasionally break; tell me when they do.": "É feito nas horas livres, então às vezes algo pode quebrar; me avise quando acontecer.",
- "How these levels changed over time: opens the Depth pane on Liquidation levels. The last {n} days are free; older history is part of Plus.": "Como estes níveis mudaram ao longo do tempo: abre o painel Profundidade em “Níveis de liquidação”. Os últimos {n} dias são gratuitos; o histórico mais antigo faz parte do Plus.",
- "Earlier history: Plus": "Histórico mais antigo: Plus",
- "The liquidation levels' history is free for the last {n} days. What is older is part of Plus, which pays for the servers that record it. Press for what Plus is.": "O histórico dos níveis de liquidação é gratuito nos últimos {n} dias. O que é mais antigo faz parte do Plus, que paga os servidores que o gravam. Pressione para saber o que é o Plus.",
- "This stretch of the liquidation levels' history is part of Plus.": "Este trecho do histórico dos níveis de liquidação faz parte do Plus.",
- "The checkout could not be loaded. Check your connection, or a blocker that stops paddle.com, and try again.": "Não foi possível carregar o checkout. Verifique sua conexão ou se algum bloqueador está impedindo o acesso ao paddle.com, e tente de novo.",
- "Paid. Setting up Plus in this browser…": "Pago. Ativando o Plus neste navegador…",
- "Thank you. Plus is on in this browser.": "Obrigado. O Plus está ativo neste navegador.",
- "The payment went through, but Plus could not be set up here yet. Use the email and the invoice number from your receipt below in a few minutes; nothing is lost.": "O pagamento foi concluído, mas ainda não foi possível ativar o Plus aqui. Daqui a alguns minutos, use abaixo o e-mail e o número da fatura do seu recibo; nada se perde.",
- "That does not look like a key.": "Isso não parece uma chave.",
- "Plus is on in this browser.": "O Plus está ativo neste navegador.",
- "Plus is on in this browser, until {date}.": "O Plus está ativo neste navegador até {date}.",
- "Back to the map in {n} s": "Voltando ao mapa em {n} s",
- "Stay here": "Ficar aqui",
- "That key is not known, or its subscription has ended.": "Essa chave não foi reconhecida, ou a assinatura dela terminou.",
- "The server could not be reached. Try again in a moment.": "Não foi possível conectar ao servidor. Tente de novo em instantes.",
- "Enter the email you paid with and the invoice number from your receipt.": "Digite o e-mail usado no pagamento e o número da fatura do seu recibo.",
- "Found. Plus is on in this browser.": "Encontrado. O Plus está ativo neste navegador.",
- "No subscription in good standing was found for that email and invoice number.": "Nenhuma assinatura em dia foi encontrada para esse e-mail e esse número de fatura.",
- "Not on sale yet": "Ainda não está à venda",
- "Plus is being set up. This page will carry its price and the checkout when it opens.": "O Plus está sendo preparado. Esta página vai trazer o preço e o checkout quando o Plus estiver à venda.",
- "{price} a month": "{price} por mês",
- "renews each month": "renova todo mês",
- "{price} a year": "{price} por ano",
- "renews each year": "renova todo ano",
- "Renew Plus": "Renovar o Plus",
- "Get Plus": "Assinar o Plus",
- "Prices are before tax; the checkout shows the total in your currency. You can end Plus at any time, and it then runs to the end of the period paid for.": "Os preços não incluem impostos; o checkout mostra o total na sua moeda local. Você pode cancelar o Plus quando quiser, e ele continua ativo até o fim do período pago.",
- "Our order process is conducted by our online reseller Paddle.com. Paddle.com is the Merchant of Record for all our orders. Paddle provides all customer service inquiries and handles returns.": "Nosso processo de pedido é conduzido pela nossa revendedora online Paddle.com. A Paddle.com é a vendedora registrada (Merchant of Record) de todos os nossos pedidos. A Paddle responde a todas as solicitações de atendimento ao cliente e cuida das devoluções.",
- "Remove Plus from this browser": "Remover o Plus deste navegador",
- "Press again to remove it": "Pressione de novo para remover",
- "Plus is on in this browser": "O Plus está ativo neste navegador",
- "Plus has ended in this browser": "O Plus terminou neste navegador",
- "Paid until {date}. It renews by itself until you end it.": "Pago até {date}. Ele se renova sozinho até você cancelar.",
- "It renews by itself until you end it.": "Ele se renova sozinho até você cancelar.",
- "Your key": "Sua chave",
- "Hide": "Ocultar",
- "Copied": "Copiado",
- "Could not copy: show the key and copy it by hand.": "Não foi possível copiar: mostre a chave e copie à mão.",
- "End the subscription or change the card": "Cancelar a assinatura ou trocar o cartão",
- "To end the subscription or change the card, use the link in your receipt from Paddle.": "Para cancelar a assinatura ou trocar o cartão, use o link no recibo da Paddle.",
- "Open the map": "Abrir o mapa",
- "Email you paid with": "E-mail usado no pagamento",
- "Invoice number": "Número da fatura",
- "Checking…": "Verificando…",
- "Use this key": "Usar esta chave",
- "Looking…": "Procurando…",
- "Find my Plus": "Encontrar meu Plus",
- "Already have Plus?": "Já tem o Plus?",
- "Enter your key to use Plus in this browser.": "Digite sua chave para usar o Plus neste navegador.",
- "No key at hand? The email you paid with and the invoice number on your receipt bring it back.": "Sem a chave à mão? O e-mail usado no pagamento e o número da fatura do seu recibo a trazem de volta.",
- "Plus pays for the servers behind LiquidityMapperFast and opens what they store. The page itself stays free and open source.": "O Plus paga os servidores por trás do LiquidityMapperFast e dá acesso ao que eles guardam. A página em si continua gratuita e de código aberto.",
- "The Depth pane showing three weeks of liquidation levels: shorts above, longs below, in bands by distance from the price.": "O painel Profundidade mostrando três semanas de níveis de liquidação: shorts acima, longs abaixo, em bandas por distância do preço.",
- "Hyperliquid's BTC liquidation levels through time, in the Depth pane: how much would be liquidated within each distance of the price, snapshot after snapshot.": "Os níveis de liquidação de BTC da Hyperliquid ao longo do tempo, no painel Profundidade: quanto seria liquidado dentro de cada distância do preço, snapshot após snapshot.",
- "What Plus adds": "O que o Plus acrescenta",
- "The whole history of the liquidation levels, back to {date}. Without Plus the pane draws the last {n} days.": "Todo o histórico dos níveis de liquidação, desde {date}. Sem o Plus, o painel desenha os últimos {n} dias.",
- "The whole history of the liquidation levels, as far back as it is recorded. Without Plus the pane draws the last {n} days.": "Todo o histórico dos níveis de liquidação, desde o início da gravação. Sem o Plus, o painel desenha os últimos {n} dias.",
- "A new snapshot about every half hour, kept for good: the history grows by a day every day.": "Um novo snapshot a cada meia hora, aproximadamente, guardado para sempre: o histórico cresce um dia a cada dia.",
- "The liquidation levels of the profitable traders, live and through time: the wallets HyperTracker counts as profitable, its four cohorts with a positive all-time perp profit.": "Os níveis de liquidação dos traders lucrativos, ao vivo e ao longo do tempo: as carteiras que a HyperTracker considera lucrativas, suas quatro coortes com lucro histórico positivo em perpétuos.",
- "The stop and take-profit levels: where open orders would close positions, live and through time, on their own or together with the liquidations.": "Os níveis de stop e take profit: onde as ordens abertas fechariam posições, ao vivo e ao longo do tempo, sozinhos ou junto com as liquidações.",
- "What stays free": "O que continua grátis",
- "Everything the page does today: the map, the order book, the flow, every pane and tool, the live liquidation levels of all traders and the last {n} days of their history.": "Tudo o que a página faz hoje: o mapa, o livro de ofertas, o fluxo, todos os painéis e ferramentas, os níveis de liquidação ao vivo de todos os traders e os últimos {n} dias do histórico deles.",
- "There is no account. After the checkout this browser holds a key, and the key is all it takes on another device.": "Não há conta. Depois do checkout este navegador guarda uma chave, e em outro dispositivo basta a chave.",
- "Terms": "Termos",
- "Privacy": "Privacidade",
- "Refunds": "Reembolsos",
- "Questions about the page: {email}. Questions about a payment go to Paddle, which sold it: paddle.net.": "Dúvidas sobre a página: {email}. Dúvidas sobre um pagamento vão para a Paddle, que fez a venda: paddle.net.",
- "in the Guide, with pictures": "no Guia, com imagens",
- "Paid until {date}. It renews by itself; you can end it on the Plus page at any time.": "Pago até {date}. Ele se renova sozinho; você pode cancelar na página Plus quando quiser.",
- "You can end it on the Plus page at any time.": "Você pode cancelar na página Plus quando quiser.",
- "Manage Plus": "Gerenciar o Plus",
- "your key, another device, ending it": "sua chave, outro dispositivo, cancelamento",
- "Plus has ended in this browser.": "O Plus terminou neste navegador.",
- "Plus opens what this site's servers store: the liquidation levels' whole history (without Plus, the last {n} days), the levels of HyperTracker's profitable traders, and the stop and take-profit levels.": "O Plus dá acesso ao que os servidores deste site guardam: todo o histórico dos níveis de liquidação (sem o Plus, os últimos {n} dias), os níveis dos traders lucrativos da HyperTracker, e os níveis de stop e take profit.",
- "Everything the page does today stays free. Plus pays for the servers behind it.": "Tudo o que a página faz hoje continua gratuito. O Plus paga os servidores por trás dela.",
- "There is no account: after the checkout this browser holds a key, which you can take to another device.": "Não há conta: depois do checkout este navegador guarda uma chave, que você pode levar para outro dispositivo.",
- "opens the Plus page": "abre a página Plus",
- "the Plus page says when": "a página Plus diz quando",
  "You can take the tour any time from the Guide.": "Você pode fazer o tour quando quiser, pelo Guia.",
  "Who made this, and where to find the code. Free to use, no account, open source.": "Quem fez isto e onde achar o código. Uso gratuito, sem conta, código aberto.",
  "The Guide tells the whole story, with moving pictures, and its first button plays this tour again. Press ? for the keys.": "O Guia conta a história completa, com imagens em movimento, e o primeiro botão dele repete este tour. Pressione ? para ver as teclas.",
- "Reveal": "Mostrar",
- "part of Plus: {time}": "parte do Plus: {time}",
- "This subscription was given {n} keys within a day. Use one of them, or try again tomorrow.": "Esta assinatura recebeu {n} chaves em um dia. Use uma delas ou tente de novo amanhã.",
- "Too many tries. Try again in {n} min.": "Tentativas demais. Tente de novo em {n} min.",
- "Too many tries. Try again later.": "Tentativas demais. Tente de novo mais tarde.",
- "The payment went through, but the server would not set up Plus for it. Write to {email} with your receipt; nothing is lost.": "O pagamento foi concluído, mas o servidor não ativou o Plus para ele. Escreva para {email} com o seu recibo; nada se perde.",
- "Checking Plus with the server…": "Verificando o Plus com o servidor…",
- "Plus runs until {date}.": "O Plus continua ativo até {date}.",
- "This key no longer opens Plus: its subscription has ended, or the key was replaced by newer ones.": "Esta chave não dá mais acesso ao Plus: a assinatura dela terminou, ou a chave foi substituída por outras mais novas.",
- "Subscribing again below brings Plus back, with a new key.": "Se você assinar de novo abaixo, o Plus volta, com uma chave nova.",
- "This browser would not keep Plus: it lasts until this tab closes. Copy the key now and enter it again next time.": "Este navegador não guardou o Plus: ele dura até esta aba ser fechada. Copie a chave agora e digite-a de novo na próxima vez.",
- "The key is your Plus on your other devices too: open this page there and enter it. Keep it to yourself.": "A chave leva o seu Plus também para os seus outros dispositivos: abra esta página lá e digite a chave. Guarde-a só para você.",
- "What you type here is sent to this site's server to find your subscription; it asks Paddle, which sold it, about the invoice number.": "O que você digita aqui é enviado ao servidor deste site para encontrar sua assinatura; ele consulta a Paddle, que fez a venda, sobre o número da fatura.",
- "With Plus, the button at the top of the liquidation column (the panel and the phone's Liq tab have the same choice) shows stop orders instead of liquidations, or both added together; take profits, always dashed, as a lane of their own next to the newest candle and as bars from the column's right edge; and the liquidations of the profitable traders alone: the wallets HyperTracker counts as profitable, its four cohorts with a positive all-time perp profit. The Depth pane's history follows the same choice.": "Com o Plus, o botão no topo da coluna de liquidações (o painel e a aba Liq do celular têm a mesma escolha) mostra ordens stop em vez de liquidações, ou as duas somadas; os take profits, sempre tracejados, como uma raia própria ao lado do candle mais recente e como barras a partir da borda direita da coluna; e só as liquidações dos traders lucrativos: as carteiras que a HyperTracker considera lucrativas, suas quatro coortes com lucro histórico positivo em perpétuos. O histórico do painel Profundidade segue a mesma escolha.",
- "With Plus it shows what the liquidation column shows: stops, or liquidations and stops added together (only snapshots that have both, about one an hour, since not every snapshot has its orders read), a trader group's liquidations, and take profits as a dashed line each side of the band you watch. A view wider than 120 days reads a row per four hours, in the preset bands only.": "Com o Plus, mostra o que a coluna de liquidações mostra: stops, ou liquidações e stops somados (só os snapshots que têm os dois, cerca de um por hora, já que nem todo snapshot tem as ordens lidas), as liquidações de um grupo de traders, e os take profits como uma linha tracejada de cada lado da banda que você observa. Uma vista com mais de 120 dias lê uma linha a cada quatro horas, só nas bandas predefinidas.",
- "Stops have no trader groups: the choice is for liquidations.": "Os stops não têm grupos de traders: a escolha vale para as liquidações.",
  "Take profits": "Take profits",
  "Take profits not included": "Take profits não incluídos",
  "Total {total} = liquidations {liq} + stops {stops}": "Total {total} = liquidações {liq} + stops {stops}",
  "The curve totals the selected liquidations and/or stops. Take profits are shown separately.": "A curva soma as liquidações e/ou os stops escolhidos. Os take profits aparecem à parte.",
- "Take-profit orders as a layer of their own beside the levels: the sells that close longs above the price, the buys that close shorts below it.": "Ordens take profit como uma camada própria ao lado dos níveis: as vendas que fecham posições compradas acima do preço, as compras que fecham posições vendidas abaixo dele.",
- "Traders": "Traders",
- "Stops have no trader groups.": "Os stops não têm grupos de traders.",
  "What these are": "O que são",
- "What the levels show": "O que os níveis mostram",
- "Profitable traders: the wallets HyperTracker counts as profitable, its four cohorts with a positive all-time perp profit.": "Traders lucrativos: as carteiras que a HyperTracker considera lucrativas, suas quatro coortes com lucro histórico positivo em perpétuos.",
- "Without Plus the page shows liquidations of all traders. Your choice is kept and comes back with Plus.": "Sem o Plus, a página mostra as liquidações de todos os traders. Sua escolha fica guardada e volta com o Plus.",
  "Stops": "Stops",
  "Liq + stops": "Liq + stops",
  "Stop levels": "Níveis de stop",
@@ -3269,8 +2957,6 @@
  "take profits could not be read": "não foi possível ler os take profits",
  "take profits are not ready yet": "os take profits ainda não estão prontos",
  "take profits are loading": "carregando os take profits",
- "Shown: {what}. Your choice is part of Plus and comes back with it. Press to choose what the levels show.": "Em exibição: {what}. Sua escolha faz parte do Plus e volta com ele. Pressione para escolher o que os níveis mostram.",
- "Shown: {what}. Press to choose what the levels show: liquidations, stops or both, take profits, and whose.": "Em exibição: {what}. Pressione para escolher o que os níveis mostram: liquidações, stops ou ambos, take profits, e de quem.",
  "No levels in this range": "Sem níveis neste intervalo",
  "Book against stops": "Livro contra stops",
  "Book against liquidations and stops": "Livro contra liquidações e stops",
@@ -3284,11 +2970,6 @@
  "Take profits above / below": "Take profits acima / abaixo",
  "Stops of longs · shorts within each distance of the price, from HyperTracker's snapshot of the orders on Hyperliquid's BTC: where the orders rest, not what will trigger.": "Stops de longs · shorts dentro de cada distância do preço, do snapshot da HyperTracker das ordens em BTC na Hyperliquid: onde as ordens estão, não o que vai disparar.",
  "Longs · shorts that would be liquidated or stopped out within each distance of the price, from HyperTracker's snapshot of Hyperliquid's BTC positions and orders: where the money sits, not what will happen.": "Longs · shorts que seriam liquidados ou fechados por stop dentro de cada distância do preço, do snapshot da HyperTracker das posições e ordens de BTC na Hyperliquid: onde o dinheiro está, não o que vai acontecer.",
- "The server turned the request down. Try again later, or without a VPN or blocker.": "O servidor recusou o pedido. Tente de novo mais tarde, ou sem VPN nem bloqueador.",
- "A payment made in this browser is still being set up. The prices come back once it is, so it is not paid twice.": "Um pagamento feito neste navegador ainda está sendo ativado. Os preços voltam assim que ele estiver ativo, para não pagar duas vezes.",
- "Try again": "Tentar de novo",
- "This key was replaced by newer ones (a subscription holds five). The email and the invoice number from your receipt bring Plus back here.": "Esta chave foi substituída por outras mais novas (uma assinatura comporta cinco). O e-mail e o número da fatura do seu recibo trazem o Plus de volta aqui.",
- "This browser holds a key that the server has not confirmed yet. If this stays, check your connection.": "Este navegador guarda uma chave que o servidor ainda não confirmou. Se continuar assim, verifique sua conexão.",
  "Tracked stop orders": "Ordens stop rastreadas",
  "Tracked liquidations and stops": "Liquidações e stops rastreados",
  "Not one of the 4-hour history's bands, left out: {bands}.": "Fora das bandas do histórico em linhas de 4 horas, omitidas: {bands}.",
@@ -3300,7 +2981,6 @@
  "Potential liquidation levels of tracked positions, not liquidations that happened.": "Níveis potenciais de liquidação das posições rastreadas, não liquidações que aconteceram.",
  "Each 4-hour row stands until the next, at most {time}.": "Cada linha de 4 horas vale até a próxima, no máximo {time}.",
  "Snapshots expire after 90 minutes.": "Os snapshots expiram após 90 minutos.",
- "Plus: the liquidation levels' whole history, the liquidations of HyperTracker's profitable traders, and stop and take-profit levels, for a monthly price that pays for the servers behind this page. Everything else stays free.": "Plus: todo o histórico dos níveis de liquidação, as liquidações dos traders lucrativos da HyperTracker, e os níveis de stop e take profit, por um preço mensal que paga os servidores por trás desta página. Todo o resto continua gratuito.",
  "A perpetual's funding and premium on one venue, or every venue's funding with their median, per eight hours; on Hyperliquid, under each hour, the share of new positions buyers opened at market.": "O financiamento e o prêmio de um perpétuo numa exchange, ou o financiamento de todas as exchanges com a mediana delas, por oito horas; na Hyperliquid, sob cada hora, a parte das posições novas que os compradores abriram a mercado.",
  "Funding is what holders of a perpetual pay each other each interval to keep its price near the index. Above the zero line, filled in the buy colour, it is positive and longs pay shorts; below it, in the sell colour, shorts pay longs. It is made of the premium (how far the perpetual's price sits from the index) plus a clamp that holds it at a base rate while the premium stays close: 0.01 % per eight hours on Hyperliquid, Binance, Bybit, OKX and Bitget. Every rate here is per eight hours, so the base rate (dashed) is the same on every venue that has one, and so is the band around it: two dotted lines in the premium's colour, between which the premium moves while funding stays at the base rate, and outside which funding follows the premium. Deribit's funding is continuous and has neither. The popup gives each venue's own interval (Hyperliquid settles every hour) and the yearly rate, and the value under the pointer shows on both edges of the pane.": "O financiamento é o que os detentores de um perpétuo pagam uns aos outros a cada intervalo para manter o preço dele perto do índice. Acima da linha do zero, preenchido com a cor de compra, é positivo e os longs pagam aos shorts; abaixo, com a cor de venda, os shorts pagam aos longs. Ele é composto pelo prêmio (o quanto o preço do perpétuo se afasta do índice) mais um limitador que mantém o financiamento numa taxa base enquanto o prêmio fica por perto: 0,01 % por oito horas na Hyperliquid, Binance, Bybit, OKX e Bitget. Toda taxa aqui é por oito horas, então a taxa base (tracejada) é igual em toda exchange que tem uma, e a banda em volta dela também: duas linhas pontilhadas na cor do prêmio, entre as quais o prêmio se move enquanto o financiamento fica na taxa base, e fora das quais o financiamento acompanha o prêmio. O financiamento da Deribit é contínuo e não tem nenhuma das duas. O popup dá o intervalo próprio de cada exchange (a Hyperliquid paga a cada hora) e a taxa anual, e o valor sob o ponteiro aparece nas duas bordas do painel.",
  "The thick steps are funding as it settled, each over the interval it paid for, and the dashed step the one accruing now. The thin line is the premium, where the venue publishes its history (Hyperliquid each hour, Binance and Bybit per candle); OKX, Bitget and Deribit show their funding only, without the band.": "Os degraus grossos são o financiamento como foi pago, cada um sobre o intervalo que cobria, e o degrau tracejado o que se acumula agora. A linha fina é o prêmio, onde a exchange publica o seu histórico (Hyperliquid a cada hora, Binance e Bybit por vela); OKX, Bitget e Deribit mostram só o financiamento, sem a banda.",
@@ -3317,21 +2997,9 @@
  "Premium band": "Banda do prêmio",
  "The Funding pane shows every venue: choose one under Venue to sum up its funding over this selection.": "O painel Financiamento mostra todas as exchanges: escolha uma em Exchange para somar o financiamento dela nesta seleção.",
  "Too few venues for a median here.": "Poucas exchanges aqui para uma mediana.",
- "{n} layouts": {
-  "one": "{n} layout",
-  "other": "{n} layouts",
-  "many": "{n} layouts"
- },
- "{n} scripts": {
-  "one": "{n} script",
-  "other": "{n} scripts",
-  "many": "{n} scripts"
- },
- "{n} themes": {
-  "one": "{n} tema",
-  "other": "{n} temas",
-  "many": "{n} temas"
- },
+ "{n} layouts": {"one":"{n} layout","other":"{n} layouts","many":"{n} layouts"},
+ "{n} scripts": {"one":"{n} script","other":"{n} scripts","many":"{n} scripts"},
+ "{n} themes": {"one":"{n} tema","other":"{n} temas","many":"{n} temas"},
  "the settings": "as configurações",
  "nothing but small choices": "apenas algumas pequenas escolhas",
  "One file with everything this page keeps in this browser: the settings, your layouts, scripts, drawings and themes, the coin and the venues. Keep it, or open it in another browser or on another computer. The recorded market history is not in it.": "Um ficheiro com tudo o que esta página guarda neste navegador: as configurações, os seus layouts, scripts, desenhos e temas, a moeda e as exchanges. Guarde-o, ou abra-o noutro navegador ou noutro computador. O histórico de mercado gravado não está incluído.",
@@ -3393,11 +3061,7 @@
  "This themes file is from a newer version of the page: reload the page and try again.": "Este ficheiro de temas é de uma versão mais recente da página: recarregue a página e tente de novo.",
  "The file holds no theme this page can read.": "O ficheiro não contém nenhum tema que esta página consiga ler.",
  "This is not a themes file.": "Isto não é um ficheiro de temas.",
- "Read {n} themes.": {
-  "one": "{n} tema lido.",
-  "other": "{n} temas lidos.",
-  "many": "{n} temas lidos."
- },
+ "Read {n} themes.": {"one":"{n} tema lido.","other":"{n} temas lidos.","many":"{n} temas lidos."},
  "Read themes from a file written by Export (a name already here is replaced)": "Ler temas de um ficheiro escrito com Exportar (um nome que já cá esteja é substituído)",
  "Export all": "Exportar tudo",
  "Write all your themes to one file": "Escrever todos os seus temas num só ficheiro",
@@ -3405,11 +3069,7 @@
  "Copy “{name}” and edit it": "Copiar “{name}” e editar",
  "At most {n} themes: delete one first.": "No máximo {n} temas: apague um primeiro.",
  "A copy of this theme under a name of your own, ready to change": "Uma cópia deste tema com um nome seu, pronta a alterar",
- "You have {n} themes of your own: choose one in the theme menu to edit it.": {
-  "one": "Tem {n} tema seu: escolha-o no menu de temas para o editar.",
-  "other": "Tem {n} temas seus: escolha um no menu de temas para o editar.",
-  "many": "Tem {n} temas seus: escolha um no menu de temas para o editar."
- },
+ "You have {n} themes of your own: choose one in the theme menu to edit it.": {"one":"Tem {n} tema seu: escolha-o no menu de temas para o editar.","other":"Tem {n} temas seus: escolha um no menu de temas para o editar.","many":"Tem {n} temas seus: escolha um no menu de temas para o editar."},
  "Files": "Ficheiros",
  "A theme file holds colours only, so a theme from anyone is safe to read.": "Um ficheiro de tema só contém cores, por isso é seguro ler um tema de qualquer pessoa.",
  "Your own theme: every change shows at once and is kept in this browser.": "O seu próprio tema: cada alteração vê-se logo e fica guardada neste navegador.",
@@ -3442,5 +3102,10 @@
  "longs": "longs",
  "shorts": "shorts",
  "× in the table is how many times the larger side is the smaller, in its colour: 2.50× is two and a half times as much on that side; ∞, the other side has none.": "× na tabela é quantas vezes o lado maior é o menor, na sua cor: 2.50× é duas vezes e meia mais nesse lado; ∞, o outro lado não tem nada.",
- "While the table is drawn it takes the popup's place; switch Table off to see the popup.": "Enquanto a tabela está desenhada, ela ocupa o lugar do popup; desligue Tabela para ver o popup."
+ "While the table is drawn it takes the popup's place; switch Table off to see the popup.": "Enquanto a tabela está desenhada, ela ocupa o lugar do popup; desligue Tabela para ver o popup.",
+ "How these levels changed over time: opens the Depth pane on Liquidation levels.": "Como estes níveis mudaram: abre os níveis de liquidação no painel de profundidade.",
+ "Earlier history unavailable": "Histórico anterior indisponível",
+ "The upstream service provides only recent public liquidation history.": "O serviço externo fornece apenas o histórico público recente de liquidações.",
+ "This stretch of liquidation history is unavailable from the upstream service.": "Este período do histórico de liquidações não está disponível no serviço externo.",
+ "unavailable history: {time}": "histórico indisponível: {time}"
 }

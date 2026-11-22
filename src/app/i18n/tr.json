@@ -286,10 +286,7 @@
  "Imbalance": "Dengesizlik",
  "Liquidity tracker is collecting…": "Liquidity Tracker veri topluyor…",
  "imb": "deng.",
- "{n} venues": {
-  "one": "{n} borsa",
-  "other": "{n} borsa"
- },
+ "{n} venues": {"one":"{n} borsa","other":"{n} borsa"},
  "Choose, order and configure the statistics shown for each candle": "Her mum için gösterilen istatistikleri seçin, sıralayın ve yapılandırın",
  "Default": "Varsayılan",
  "None": "Hiçbiri",
@@ -319,10 +316,7 @@
  "Market orders under this size are retail (delta retail, cvd retail).": "Bu büyüklüğün altındaki piyasa emirleri bireyseldir (delta bireysel, CVD bireysel).",
  "Whales": "Balinalar",
  "Market orders of this size and over are whales (delta whales, cvd whales).": "Bu büyüklükteki ve daha büyük piyasa emirleri balinadır (delta balinalar, CVD balinalar).",
- "{n} stats · cvd sums the bars loaded for the view": {
-  "one": "{n} istatistik · CVD görünüm için yüklenen çubukları toplar",
-  "other": "{n} istatistik · CVD görünüm için yüklenen çubukları toplar"
- },
+ "{n} stats · cvd sums the bars loaded for the view": {"one":"{n} istatistik · CVD görünüm için yüklenen çubukları toplar","other":"{n} istatistik · CVD görünüm için yüklenen çubukları toplar"},
  "No statistics selected: use Stats to add some.": "Hiç istatistik seçilmedi: eklemek için Stats'ı kullanın.",
  "Bar stats appear once executions are recorded for the visible candles.": "Görünür mumlar için gerçekleşmeler kaydedildiğinde çubuk istatistikleri belirir.",
  "No executions recorded for the candles in view.": "Görünümdeki mumlar için kaydedilmiş gerçekleşme yok.",
@@ -399,10 +393,7 @@
  "Smallest trade in this tier, USD notional (at least {min})": "Bu kademedeki en küçük işlem, USD nominal (en az {min})",
  "Mute the {tier} tier": "{tier} kademesini sustur",
  "Sound the {tier} tier": "{tier} kademesinin sesini aç",
- "{n} notes": {
-  "one": "{n} nota",
-  "other": "{n} nota"
- },
+ "{n} notes": {"one":"{n} nota","other":"{n} nota"},
  "Buy": "Alış",
  "Hear a {tier} buy": "Bir {tier} alışı dinle",
  "Sell": "Satış",
@@ -493,10 +484,7 @@
  "How far above its recent average something must be: lower flags more, higher flags only the extremes.": "Bir şeyin yakın ortalamasının ne kadar üzerinde olması gerektiği: daha düşük daha çok, daha yüksek yalnızca uç değerleri işaretler.",
  "Baseline": "Taban çizgisi",
  "How many preceding bars the average and spread are taken from.": "Ortalamanın ve yayılımın kaç önceki çubuktan alındığı.",
- "{n} bars": {
-  "one": "{n} çubuk",
-  "other": "{n} çubuk"
- },
+ "{n} bars": {"one":"{n} çubuk","other":"{n} çubuk"},
  "A bar is flagged when its value exceeds the mean plus the sensitivity times the standard deviation of the bars before it. The bar itself never raises its own threshold, and nothing is flagged until a dozen bars exist.": "Bir çubuğun değeri, kendinden önceki çubukların ortalaması artı duyarlılık çarpı standart sapmasını aştığında işaretlenir. Çubuğun kendisi kendi eşiğini asla yükseltmez ve bir düzine çubuk oluşana kadar hiçbir şey işaretlenmez.",
  "Tested on Binance BTCUSDT perpetual history: no reliable direction; at 15m these levels were revisited somewhat less often than look-alike candles. Not a forecast.": "Binance BTCUSDT süresiz vadeli geçmişinde test edildi: güvenilir bir yön yok; 15m'de bu seviyeler benzer görünümlü mumlardan biraz daha seyrek yeniden ziyaret edildi. Tahmin değildir.",
  "Not validated for this market and timeframe. Not a forecast.": "Bu piyasa ve zaman dilimi için doğrulanmadı. Tahmin değildir.",
@@ -743,10 +731,7 @@
  "Threshold": "Eşik",
  "Marks": "İşaretler",
  "Market orders of one side met resting orders at one price within {ms} ms. It marks what traded, not what price did next.": "Bir taraftaki piyasa emirleri {ms} ms içinde tek bir fiyatta bekleyen emirlerle karşılaştı. İşlem göreni işaretler, fiyatın sonra ne yaptığını değil.",
- "{n} marks": {
-  "one": "{n} işaret",
-  "other": "{n} işaret"
- },
+ "{n} marks": {"one":"{n} işaret","other":"{n} işaret"},
  "Absorption": "Emilim",
  "Absorption marks: where market orders of one side met resting orders at one price for more than a threshold within 10 ms. A square below a level means passive buyers took the selling; above, passive sellers took the buying.": "Emilim işaretleri: bir taraftaki piyasa emirlerinin 10 ms içinde tek bir fiyatta eşiği aşan miktarda bekleyen emirle karşılaştığı yerler. Seviyenin altındaki kare pasif alıcıların satışı, üstündeki pasif satıcıların alımı emdiğini gösterir.",
  "Absorption: only the largest marks of {venues} are drawn in this window.": "Emilim: bu aralıkta yalnızca {venues} için en büyük işaretler çiziliyor.",
@@ -826,10 +811,7 @@
  "By exchange": "Borsaya göre",
  "Exchange": "Borsa",
  "Share": "Pay",
- "{n} others": {
-  "one": "{n} diğer",
-  "other": "{n} diğer"
- },
+ "{n} others": {"one":"{n} diğer","other":"{n} diğer"},
  "Spot · perpetual": "Spot · süresiz vadeli",
  "Absorption marks": "Emilim işaretleri",
  "Absorption is off: switch it on to count its marks here.": "Emilim kapalı: işaretlerini burada saymak için açın.",
@@ -907,10 +889,7 @@
  "Below the value area": "Değer alanının altında",
  "Select": "Seç",
  "Select an area and add up what traded there: drag across the map for a box, or across a pane under it for a stretch of time. Ctrl+drag (Cmd on a Mac) selects at any time.": "Bir alan seçin ve orada işlem göreni toplayın: kutu için haritada, bir zaman aralığı için altındaki bir panelde sürükleyin. Ctrl+sürükle (Mac'te Cmd) her zaman seçer.",
- "{n} smaller venues": {
-  "one": "{n} küçük borsa",
-  "other": "{n} küçük borsa"
- },
+ "{n} smaller venues": {"one":"{n} küçük borsa","other":"{n} küçük borsa"},
  "Show the exchange in each bubble": "Her balonda borsayı göster",
  "Its mark in the middle of every bubble large enough to hold it. Hover a bubble and the other venues step back, so the places that venue traded stand out.": "Sığacak kadar büyük her balonun ortasında borsanın işareti. Bir balonun üzerine gelin, diğer borsalar geri çekilir ve o borsanın işlem yaptığı yerler öne çıkar.",
  "Flow since {time}: older flow is not available from this source": "Akış {time} saatinden beri: daha eski akış bu kaynaktan alınamıyor",
@@ -1066,10 +1045,7 @@
  "No flow recorded for these candles yet.": "Bu mumlar için henüz akış kaydedilmedi.",
  "Flow is recorded from {time}: the candles before it have none.": "Akış {time} tarihinden beri kaydediliyor: daha önceki mumlarda yok.",
  "flow recorded since {time}": "{time} tarihinden beri kaydedilen akış",
- "{n} candles": {
-  "one": "{n} mum",
-  "other": "{n} mum"
- },
+ "{n} candles": {"one":"{n} mum","other":"{n} mum"},
  "Divergences": "Uyumsuzluklar",
  "CVD divergence": "CVD uyumsuzluğu",
  "Swing": "Salınım",
@@ -1115,10 +1091,7 @@
  "Import": "İçe aktar",
  "Read layouts from a file written by Export (a name already here is replaced)": "Dışa aktar ile yazılmış bir dosyadan düzenleri okuyun (burada zaten olan bir ad değiştirilir)",
  "This browser did not let the page keep it.": "Bu tarayıcı sayfanın kaydetmesine izin vermedi.",
- "Read {n} layouts.": {
-  "one": "{n} düzen okundu.",
-  "other": "{n} düzen okundu."
- },
+ "Read {n} layouts.": {"one":"{n} düzen okundu.","other":"{n} düzen okundu."},
  "Go to": "Git",
  "Go to a date and time": "Bir tarih ve saate git",
  "Go to a date and time (keyboard: G)": "Bir tarih ve saate git (klavye: G)",
@@ -1165,20 +1138,14 @@
  "High · low": "Yüksek · düşük",
  "The price of {market}, from its {tf} candles.": "{market} fiyatı, {tf} mumlarından.",
  "{venue} spot": "{venue} spot",
- "Counts {n} markets.": {
-  "one": "{n} piyasa sayılır.",
-  "other": "{n} piyasa sayılır."
- },
+ "Counts {n} markets.": {"one":"{n} piyasa sayılır.","other":"{n} piyasa sayılır."},
  "No trades are recorded for {list}: their books are on the map, not in these figures.": "{list} için işlem kaydedilmiyor: emir defterleri haritada, bu rakamlarda değil.",
  "Switched off or outside the Spot / Perp filter: {list}.": "Kapalı veya Spot / Perp filtresinin dışında: {list}.",
  "{value} · {share} of the volume": "{value} · hacmin {share} kadarı",
  "bought at {buy} · sold at {sell}": "alış {buy} · satış {sell}",
  "Volume by price": "Fiyata göre hacim",
  "Most traded": "En çok işlem gören",
- "{n} orders": {
-  "one": "{n} emir",
-  "other": "{n} emir"
- },
+ "{n} orders": {"one":"{n} emir","other":"{n} emir"},
  "What the market orders traded at each price, buys in the bid colour and sells in the ask colour, in bars of {step}.": "Piyasa emirlerinin her fiyatta işlem gördüğü tutar; alışlar alış renginde, satışlar satış renginde, {step} genişliğinde çubuklarla.",
  "Absorbed": "Emilen",
  "Passive buyers {value} · {share}": "Pasif alıcılar {value} · {share}",
@@ -1190,10 +1157,7 @@
  "Passive buyers held at": "Pasif alıcıların tuttuğu fiyatlar",
  "Passive sellers held at": "Pasif satıcıların tuttuğu fiyatlar",
  "A mark is market orders of one side meeting resting orders at one price within 10 ms, more than the exchange's threshold: only the marks the map draws count. Passive buyers take market sells, passive sellers take market buys.": "Bir işaret, bir taraftaki piyasa emirlerinin 10 ms içinde tek bir fiyatta bekleyen emirlerle borsanın eşiğinden fazla buluşmasıdır: yalnızca haritanın çizdiği işaretler sayılır. Pasif alıcılar piyasa satışlarını, pasif satıcılar piyasa alışlarını emer.",
- "What rested inside the box on average over its time, on the {n} order books switched on (those without recorded trades too).": {
-  "one": "Kutuda süresi boyunca ortalama bekleyen emirler, açık olan {n} emir defterinde (işlem kaydı olmayan dahil).",
-  "other": "Kutuda süresi boyunca ortalama bekleyen emirler, açık olan {n} emir defterinde (işlem kaydı olmayanlar dahil)."
- },
+ "What rested inside the box on average over its time, on the {n} order books switched on (those without recorded trades too).": {"one":"Kutuda süresi boyunca ortalama bekleyen emirler, açık olan {n} emir defterinde (işlem kaydı olmayan dahil).","other":"Kutuda süresi boyunca ortalama bekleyen emirler, açık olan {n} emir defterinde (işlem kaydı olmayanlar dahil)."},
  "Venue lines": "Borsa çizgileri",
  "top {n}": "ilk {n}",
  "Compact: a running-total line for each of the largest venues, ranked by traded volume over the flow column's ranking window. Hover a line to see it alone.": "Kompakt: en büyük borsaların her biri için bir kümülatif çizgi; akış sütununun sıralama penceresindeki işlem hacmine göre sıralanır. Bir çizginin üzerine gelince yalnız o görünür.",
@@ -1211,10 +1175,7 @@
  "{n} venues added together": "{n} borsa toplandı",
  "All perpetuals": "Tüm vadesizler",
  "With the OI pane's Venues on All perpetuals (the default), each venue's change of open interest is given to the side that traded at market on that venue, and the venues are then added up: one venue's buyers say nothing about who opened positions on another.": "OI panelinin Borsalar ayarı Tüm vadesizler iken (varsayılan), her borsanın açık pozisyon değişimi o borsada piyasa emriyle işlem yapan tarafa verilir ve sonra borsalar toplanır: bir borsanın alıcıları başka bir borsada kimin pozisyon açtığı hakkında hiçbir şey söylemez.",
- "{n} more venues": {
-  "one": "{n} borsa daha",
-  "other": "{n} borsa daha"
- },
+ "{n} more venues": {"one":"{n} borsa daha","other":"{n} borsa daha"},
  "{n} of {m} venues": "{m} borsadan {n}",
  "Both ways": "İki yönde",
  "takers even": "taker'lar eşit",
@@ -1369,10 +1330,7 @@
  "Could not record a GIF here": "Burada GIF kaydedilemedi",
  "Finishing…": "Bitiriliyor…",
  "{size} · {s} s · {fps} fps": "{size} · {s} sn · {fps} fps",
- "{w} × {h} px, {n} frames": {
-  "one": "{w} × {h} px, {n} kare",
-  "other": "{w} × {h} px, {n} kare"
- },
+ "{w} × {h} px, {n} frames": {"one":"{w} × {h} px, {n} kare","other":"{w} × {h} px, {n} kare"},
  "Kept under {mb} MB: the GIF ends at {s} s": "{mb} MB'ın altında tutuldu: GIF {s} sn'de bitiyor",
  "Kept under {mb} MB: the frame rate went down to {fps} a second": "{mb} MB'ın altında tutuldu: kare hızı saniyede {fps}'e düştü",
  "The page was hidden, so the GIF ends at {s} s": "Sayfa gizlendi, bu yüzden GIF {s} sn'de bitiyor",
@@ -1486,10 +1444,7 @@
  "Profiles of what traded, beside the map and along the top of the chart: how much was bought and sold at market at each price, and in each stretch of time, over the time on the map. Next to the resting liquidity, it shows which levels have actually changed hands, and when.": "Haritanın yanında ve grafiğin üst kenarında işlem görenlerin profilleri: haritadaki süre boyunca her fiyatta ve her zaman diliminde piyasadan ne kadar alınıp satıldığı. Bekleyen likiditenin yanında hangi seviyelerin gerçekten el değiştirdiğini ve ne zaman değiştirdiğini gösterir.",
  "In the settings a grid sets where each measure is drawn (traded volume, the change in open interest, absorption or liquidations): as a column right or left of the map, the left ones mirrored so both face the chart, or as a band along the top, where the same profile is laid on the time axis: one bar for each stretch, from a second to a day as the zoom allows, growing down from the top, with the busiest stretch as its point of control and the value area around it. Up to three bands stack. What has no room stays switched on and is said, in the panel and on the map. Point at a bar for its figures; click a band's header for these settings.": "Ayarlardaki bir tablo her ölçünün nereye çizileceğini belirler (işlem hacmi, açık pozisyon değişimi, emilim ya da tasfiyeler): haritanın sağında ya da solunda bir sütun olarak (soldakiler aynalanır, böylece ikisi de grafiğe bakar) ya da üst kenarda bir bant olarak; bantta aynı profil zaman ekseni üzerine yatırılır: her dilim için bir çubuk (yakınlaştırmaya göre bir saniyeden bir güne kadar) yukarıdan aşağı uzanır; en yoğun dilim kontrol noktasıdır, çevresi değer alanı. En fazla üç bant üst üste gelir. Yer bulamayan açık kalır ve bu, panelde ve haritada belirtilir. Rakamları için bir çubuğun üzerine gelin; bu ayarlar için bir bandın başlığına tıklayın.",
  "OI change": "OI değişimi",
- "{n} hidden for space": {
-  "one": "{n} tanesi yer olmadığı için gizli",
-  "other": "{n} tanesi yer olmadığı için gizli"
- },
+ "{n} hidden for space": {"one":"{n} tanesi yer olmadığı için gizli","other":"{n} tanesi yer olmadığı için gizli"},
  "Where each measure is drawn": "Her ölçünün çizildiği yer",
  "The profiles beside the map and along the top of the chart, and the point-of-control lines on the chart.": "Haritanın yanındaki ve grafiğin üst kenarındaki profiller ve grafikteki kontrol noktası çizgileri.",
  "A phone has no room for the columns: it draws the first band along the top, and the lines on the chart.": "Telefonda sütunlara yer yok: üstteki ilk bandı ve grafikteki çizgileri çizer.",
@@ -1510,10 +1465,7 @@
  "{measure} right of the map": "haritanın sağında {measure}",
  "{measure} left of the map": "haritanın solunda {measure}",
  "{measure} along the top": "üst kenarda {measure}",
- "{n} profiles hidden for space: {which}. They stay switched on and show when there is room: a wider window, a taller chart, or fewer profiles.": {
-  "one": "{n} profil yer olmadığı için gizli: {which}. Açık kalır ve yer olduğunda görünür: daha geniş bir pencere, daha yüksek bir grafik ya da daha az profil.",
-  "other": "{n} profil yer olmadığı için gizli: {which}. Açık kalırlar ve yer olduğunda görünürler: daha geniş bir pencere, daha yüksek bir grafik ya da daha az profil."
- },
+ "{n} profiles hidden for space: {which}. They stay switched on and show when there is room: a wider window, a taller chart, or fewer profiles.": {"one":"{n} profil yer olmadığı için gizli: {which}. Açık kalır ve yer olduğunda görünür: daha geniş bir pencere, daha yüksek bir grafik ya da daha az profil.","other":"{n} profil yer olmadığı için gizli: {which}. Açık kalırlar ve yer olduğunda görünürler: daha geniş bir pencere, daha yüksek bir grafik ya da daha az profil."},
  "Chart window": "Grafik penceresi",
  "Everything on the chart, as the columns add it up": "Grafikteki her şey, sütunların topladığı gibi",
  "No lines are ticked above: these settings draw nothing until one is.": "Yukarıda işaretli çizgi yok: biri işaretlenene kadar bu ayarlar hiçbir şey çizmez.",
@@ -1591,10 +1543,7 @@
  "Where cvd, cvd retail and cvd whales start: the chart's left edge, or each day's start in the chart's time zone (the day the left edge falls in is loaded whole).": "cvd, cvd perakende ve cvd balinaların başladığı yer: grafiğin sol kenarı ya da grafiğin saat dilimindeki her günün başı (sol kenarın düştüğü gün tümüyle yüklenir).",
  "Each day's start": "Her günün başı",
  "Click a candle to pin it: a card lists every statistic for that candle until it is clicked again or Esc is pressed. Shift+click pins more candles to compare them side by side (up to five). Cells can be shaded by how unusual each candle is against its own recent ones (Unusual, the Highlights' baseline) or drawn as lines, and rows can be grouped by kind under headers that fold away. CVD from each day's start makes the running sums start again at every day in the chart's time zone.": "Bir mumu sabitlemek için tıklayın: yeniden tıklanana ya da Esc’ye basılana dek bir kart o mumun her istatistiğini listeler. Shift+tıklama, daha fazla mumu yan yana karşılaştırmak için sabitler (en fazla beş). Hücreler her mumun kendi son mumlarına göre ne kadar alışılmadık olduğuna göre (Alışılmadık, Vurgular’ın taban çizgisi) gölgelenebilir ya da çizgi olarak çizilebilir; satırlar katlanabilen başlıklar altında türe göre gruplanabilir. CVD her günün başından, kümülatif toplamları grafiğin saat diliminde her gün yeniden başlatır.",
- "{n} stats · cvd from each day's start": {
-  "one": "{n} istatistik · CVD her günün başından",
-  "other": "{n} istatistik · CVD her günün başından"
- },
+ "{n} stats · cvd from each day's start": {"one":"{n} istatistik · CVD her günün başından","other":"{n} istatistik · CVD her günün başından"},
  "Series": "Seri",
  "Reading the market orders of this candle…": "Bu mumun piyasa emirleri okunuyor…",
  "The market orders of this candle could not be read.": "Bu mumun piyasa emirleri okunamadı.",
@@ -1676,15 +1625,9 @@
  "A script runs again at most once a second, and less often when it is slow: four times as long apart as it takes. One that loops too long, or grows too large, is stopped and says where.": "Bir betik en fazla saniyede bir kez yeniden çalışır, yavaş olduğunda daha seyrek: aradaki süre, çalışma süresinin dört katıdır. Döngüde çok uzun kalan ya da çok büyüyen bir betik durdurulur ve nerede olduğunu söyler.",
  "Scripts…": "Betikler…",
  "Write, switch on and off, import and export your scripts.": "Betiklerinizi yazın, açıp kapatın, içe ve dışa aktarın.",
- "{n} scripts on": {
-  "one": "{n} betik açık",
-  "other": "{n} betik açık"
- },
+ "{n} scripts on": {"one":"{n} betik açık","other":"{n} betik açık"},
  "running…": "çalışıyor…",
- "{n} warnings": {
-  "one": "{n} uyarı",
-  "other": "{n} uyarı"
- },
+ "{n} warnings": {"one":"{n} uyarı","other":"{n} uyarı"},
  "The script ends before this is complete.": "Betik, bu kısım tamamlanmadan bitiyor.",
  "Expected {what} here.": "Burada {what} bekleniyordu.",
  "Two statements on one line: put a line break or a semicolon between them.": "Bir satırda iki ifade var: aralarına bir satır sonu ya da noktalı virgül koyun.",
@@ -1728,10 +1671,7 @@
  "No scripts yet.": "Henüz betik yok.",
  "not run yet": "henüz çalışmadı",
  "error": "hata",
- "{n} plots": {
-  "one": "{n} çizim",
-  "other": "{n} çizim"
- },
+ "{n} plots": {"one":"{n} çizim","other":"{n} çizim"},
  "“{name}” is on.": "“{name}” açık.",
  "“{name}” is off.": "“{name}” kapalı.",
  "Delete this script (press twice)": "Bu betiği sil (iki kez basın)",
@@ -1747,10 +1687,7 @@
  "Imported script": "İçe aktarılan betik",
  "The file is too large to be scripts.": "Dosya, betik olamayacak kadar büyük.",
  "The file holds no script this page can read.": "Dosyada bu sayfanın okuyabileceği bir betik yok.",
- "Read {n} scripts: switch them on to run them.": {
-  "one": "{n} betik okundu: çalıştırmak için açın.",
-  "other": "{n} betik okundu: çalıştırmak için açın."
- },
+ "Read {n} scripts: switch them on to run them.": {"one":"{n} betik okundu: çalıştırmak için açın.","other":"{n} betik okundu: çalıştırmak için açın."},
  "Write the scripts to a file, to keep them or use them in another browser": "Betikleri saklamak ya da başka bir tarayıcıda kullanmak için bir dosyaya yazın",
  "Read scripts from a file: one written by Export, an indicator file or a workspace from another charting page, or a script as text": "Betikleri bir dosyadan okuyun: Dışa aktar ile yazılmış bir dosya, başka bir grafik sayfasından bir gösterge dosyası ya da çalışma alanı, ya da metin olarak bir betik",
  "Each candle runs the script once. A name set without var (x = ...) keeps its value from candle to candle and starts at 0; x[1] is its value one candle back. A var starts again each candle.": "Her mum betiği bir kez çalıştırır. var olmadan atanan bir ad (x = ...) değerini mumdan muma korur ve 0'dan başlar; x[1] onun bir mum önceki değeridir. Bir var her mumda yeniden başlar.",
@@ -1782,21 +1719,12 @@
  "“{name}” stopped with an error: open Scripts to see it.": "“{name}” bir hatayla durdu: görmek için Betikler’i açın.",
  "Switch this script off (it stays in Scripts…)": "Bu betiği kapat (Betikler… içinde kalır)",
  "Switch off the scripts in this panel (they stay in Scripts…)": "Bu bölmedeki betikleri kapat (Betikler… içinde kalırlar)",
- "Switched off {n} scripts in this panel.": {
-  "one": "Bu bölmedeki {n} betik kapatıldı.",
-  "other": "Bu bölmedeki {n} betik kapatıldı."
- },
+ "Switched off {n} scripts in this panel.": {"one":"Bu bölmedeki {n} betik kapatıldı.","other":"Bu bölmedeki {n} betik kapatıldı."},
  "Stochastic heat map": "Stokastik ısı haritası",
  "Buyer and seller VWAPs": "Alıcı ve satıcı VWAP’ları",
  "Volume anomalies": "Hacim anomalileri",
- "+{n} more plots": {
-  "one": "+{n} çizim daha",
-  "other": "+{n} çizim daha"
- },
- "+{n} more scripts": {
-  "one": "+{n} betik daha",
-  "other": "+{n} betik daha"
- },
+ "+{n} more plots": {"one":"+{n} çizim daha","other":"+{n} çizim daha"},
+ "+{n} more scripts": {"one":"+{n} betik daha","other":"+{n} betik daha"},
  "Copy for AI": "Yapay zekâ için kopyala",
  "Copy the script, its errors and what it drew, with the language's rules, to paste into an AI assistant": "Betiği, hatalarını ve çizdiklerini dilin kurallarıyla birlikte kopyala; bir yapay zekâ asistanına yapıştırmak için",
  "Copied. Paste it into your AI assistant, then paste its answer back here and press Check.": "Kopyalandı. Yapay zekâ asistanına yapıştır, sonra yanıtını buraya yapıştırıp Denetle’ye bas.",
@@ -1897,10 +1825,7 @@
  "Close the drawing tools (D); the drawings stay on the map": "Çizim araçlarını kapat (D); çizimler haritada kalır",
  "Magnet: {mode}": "Mıknatıs: {mode}",
  "Magnet: {mode}. Weak lands a point on the open, high, low or close of the candle under the pointer when it is within a few pixels, Strong from further, Off never; walls of resting liquidity too while that is on in Drawings. Hold Alt to place freely. Click to change.": "Mıknatıs: {mode}. Zayıf, işaretçinin altındaki mumun açılış, en yüksek, en düşük veya kapanışına birkaç piksel yakınken noktayı oraya oturtur, Güçlü daha uzaktan, Kapalı hiçbir zaman; Çizimler'de açıkken bekleyen likidite duvarlarına da. Serbestçe yerleştirmek için Alt'ı basılı tutun. Değiştirmek için tıklayın.",
- "{n} drawings": {
-  "one": "{n} çizim",
-  "other": "{n} çizim"
- },
+ "{n} drawings": {"one":"{n} çizim","other":"{n} çizim"},
  "Drawings are shown but not changed during a replay.": "Tekrar oynatma sırasında çizimler gösterilir ama değiştirilmez.",
  "Colour": "Renk",
  "Line width": "Çizgi kalınlığı",
@@ -1937,10 +1862,7 @@
  "Draw them on the map. Hidden, they are kept as they are.": "Haritada çiz. Gizliyken oldukları gibi saklanırlar.",
  "Lock all": "Tümünü kilitle",
  "Nothing can be added, moved, changed or deleted until unlocked.": "Kilit açılana kadar hiçbir şey eklenemez, taşınamaz, değiştirilemez veya silinemez.",
- "This coin: {n} drawings": {
-  "one": "Bu coin: {n} çizim",
-  "other": "Bu coin: {n} çizim"
- },
+ "This coin: {n} drawings": {"one":"Bu coin: {n} çizim","other":"Bu coin: {n} çizim"},
  "None yet. Pick a tool in the rail, then click on the map.": "Henüz yok. Çubuktan bir araç seçin, sonra haritaya tıklayın.",
  "Select it and show it on the map": "Seç ve haritada göster",
  "Unlock": "Kilidi aç",
@@ -1991,14 +1913,8 @@
  "Close {price}": "Kapanış {price}",
  "Wall {usd} at {price}": "{price} seviyesinde {usd} duvar",
  "For a breakout or failed break, the dashed line is the break level it went through and the dotted one the next level, the far side of the range it moves into. Point at a mark for its levels, its candle's order flow, liquidations and open interest, and where it stood against the day's, week's and month's opens (and the hour's, on charts of an hour or less).": "Breakout ve Failed break için kesikli çizgi geçilen kırılım seviyesi, noktalı çizgi ise bir sonraki seviyedir: girdiği aralığın öbür ucu. Seviyelerini, mumunun emir akışını, tasfiyelerini ve açık pozisyonunu, gün, hafta ve ay açılışlarına (bir saat ve altındaki grafiklerde saat açılışına da) göre nerede durduğunu görmek için bir işaretin üzerine gelin.",
- "{n} left out: a coin keeps 100 and the page 1,000.": {
-  "one": "{n} tanesi eklenmedi: coin başına 100, sayfada toplam 1.000 tutulur.",
-  "other": "{n} tanesi eklenmedi: coin başına 100, sayfada toplam 1.000 tutulur."
- },
- "{n} drawings added.": {
-  "one": "{n} çizim eklendi.",
-  "other": "{n} çizim eklendi."
- },
+ "{n} left out: a coin keeps 100 and the page 1,000.": {"one":"{n} tanesi eklenmedi: coin başına 100, sayfada toplam 1.000 tutulur.","other":"{n} tanesi eklenmedi: coin başına 100, sayfada toplam 1.000 tutulur."},
+ "{n} drawings added.": {"one":"{n} çizim eklendi.","other":"{n} çizim eklendi."},
  "Drag to size the window; a double click gives back its size": "Pencereyi boyutlandırmak için sürükleyin; çift tıklama boyutunu geri getirir",
  "It is recorded while this page is open: there is no way to fetch what the order books looked like in the past, so the map starts at the moment you opened the page and grows to the right, from a dashed line that says when the recording began.": "Bu sayfa açıkken kaydedilir: geçmişte emir defterlerinin nasıl göründüğünü getirmenin bir yolu yoktur, bu yüzden harita sayfayı açtığınız anda başlar ve kaydın ne zaman başladığını gösteren kesikli bir çizgiden sağa doğru büyür.",
  "Depth bands": "Derinlik bantları",
@@ -2189,10 +2105,7 @@
  "RVWAP": "RVWAP",
  "The average price the market traded at, weighted by volume, since a session began, over the last days or since a moment you choose: where buyers and sellers have done business on average.": "Piyasanın işlem gördüğü, hacimle ağırlıklandırılmış ortalama fiyat: bir seans başladığından beri, son günlerde ya da seçtiğiniz bir andan beri; alıcılarla satıcıların ortalamada nerede işlem yaptığı.",
  "A rolling VWAP (RVWAP) is the average over the last day, week, month, quarter, half year or year up to each moment. Its start moves with time, so the oldest trades drop out, where a session or an anchor keeps every trade since its start. It is worked out from bars of its own (five minutes for a day up to four hours for a year), the newest read again each minute, so it is the same at every timeframe, and it is drawn only where the history holds a whole window.": "Kayan VWAP (RVWAP), her ana kadar son günün, haftanın, ayın, çeyreğin, yarım yılın ya da yılın ortalamasıdır. Başlangıcı zamanla ilerler, böylece en eski işlemler çıkar; seans ya da sabitleme ise başlangıcından beri her işlemi tutar. Kendi çubuklarından hesaplanır (bir gün için beş dakikalık, bir yıl için dört saatlik çubuklara kadar), en yenileri her dakika yeniden okunur; bu yüzden her zaman diliminde aynıdır ve yalnızca geçmişin tam bir pencereyi kapsadığı yerde çizilir.",
- "{n} days up to now": {
-  "one": "şimdiye kadar {n} gün",
-  "other": "şimdiye kadar {n} gün"
- },
+ "{n} days up to now": {"one":"şimdiye kadar {n} gün","other":"şimdiye kadar {n} gün"},
  "Candles from": "Mumların kaynağı",
  "Up to six markets: untick one to choose another.": "En fazla altı piyasa: başka birini seçmek için birinin işaretini kaldırın.",
  "{market}: its candles could not be read just now; trying again in a minute. The lines wait for it.": "{market}: mumları şu an okunamadı; bir dakika sonra yeniden denenecek. Çizgiler onu bekliyor.",
@@ -2502,10 +2415,7 @@
  "In each NL/NS bar the side that made the change is drawn stronger and the other fainter, the more one-sided the more. Drag across the pane with Select armed, or Ctrl+drag (Cmd on a Mac), to sum up a stretch of its candles in the Range panel.": "Her NL/NS çubuğunda değişimi yapan taraf daha koyu, diğeri daha soluk çizilir; ne kadar tek yanlıysa fark o kadar büyür. Bölmenin mumlarından bir dilimi Aralık panelinde toplamak için Seç etkinken bölmede sürükleyin ya da Ctrl+sürükle (Mac'te Cmd) kullanın.",
  "The OI pane last drew another market or timeframe: show it to sum up this selection.": "OI bölmesi en son başka bir piyasa ya da zaman dilimi çizdi: bu seçimi özetlemek için onu gösterin.",
  "No {tf} candle of the OI pane starts in this range.": "OI bölmesinin {tf} mumlarından hiçbiri bu aralıkta başlamıyor.",
- "{n} candles of {tf}": {
-  "one": "{tf} cinsinden {n} mum",
-  "other": "{tf} cinsinden {n} mum"
- },
+ "{n} candles of {tf}": {"one":"{tf} cinsinden {n} mum","other":"{tf} cinsinden {n} mum"},
  "forming": "oluşuyor",
  "The OI pane is hidden: these are the bars it last held.": "OI bölmesi gizli: bunlar onun en son tuttuğu çubuklar.",
  "Open interest uses all prices.": "Açık pozisyon tüm fiyatları kullanır.",
@@ -2513,10 +2423,7 @@
  "unavailable: no candle with a reading before it": "kullanılamıyor: öncesinde okuması olan mum yok",
  "In USD, at bar prices": "USD cinsinden, çubuk fiyatlarıyla",
  "Price, {market}": "Fiyat, {market}",
- "Previous {n} candles ({span})": {
-  "one": "Önceki {n} mum ({span})",
-  "other": "Önceki {n} mum ({span})"
- },
+ "Previous {n} candles ({span})": {"one":"Önceki {n} mum ({span})","other":"Önceki {n} mum ({span})"},
  "{k} of {n} candles": "{n} mumdan {k}",
  "so far": "şimdiye kadar",
  "Against what is held": "Eldekilerle karşılaştırma",
@@ -2524,10 +2431,7 @@
  "Largest sampled fall": "Örneklenen en büyük düşüş",
  "Marked by Highlights": "Vurgular ile işaretli",
  "Details": "Ayrıntılar",
- "{n} candles' changes unknown": {
-  "one": "{n} mumun değişimi bilinmiyor",
-  "other": "{n} mumun değişimi bilinmiyor"
- },
+ "{n} candles' changes unknown": {"one":"{n} mumun değişimi bilinmiyor","other":"{n} mumun değişimi bilinmiyor"},
  "some changes span more than one candle": "bazı değişimler birden fazla muma yayılır",
  "the {tf} candles that start in the selection": "seçimde başlayan {tf} mumları",
  "before {time} the line is Bybit's scaled estimate, not counted": "{time} öncesinde çizgi Bybit'in ölçeklenmiş tahminidir, sayılmaz",
@@ -2566,19 +2470,10 @@
  "The Delta pane has not drawn this market yet: show it to sum up this selection.": "Delta bölmesi bu piyasayı henüz çizmedi: bu seçimi özetlemek için onu gösterin.",
  "The Delta pane last drew another market, timeframe or setting: show it to sum up this selection.": "Delta bölmesi en son başka bir piyasa, zaman dilimi ya da ayar çizdi: bu seçimi özetlemek için onu gösterin.",
  "No {tf} candle of the Delta pane starts in this range.": "Delta bölmesinin {tf} mumlarından hiçbiri bu aralıkta başlamıyor.",
- "Recorded taker flow of {n} markets of the flow column": {
-  "one": "Akış sütunundaki {n} piyasanın kaydedilen taker akışı",
-  "other": "Akış sütunundaki {n} piyasanın kaydedilen taker akışı"
- },
+ "Recorded taker flow of {n} markets of the flow column": {"one":"Akış sütunundaki {n} piyasanın kaydedilen taker akışı","other":"Akış sütunundaki {n} piyasanın kaydedilen taker akışı"},
  "Recorded taker flow of {lo}–{hi} of the flow column's {n} markets": "Akış sütunundaki {n} piyasadan {lo}–{hi} tanesinin kaydedilen taker akışı",
- "{n} candles without recorded flow": {
-  "one": "Kaydedilmiş akışı olmayan {n} mum",
-  "other": "Kaydedilmiş akışı olmayan {n} mum"
- },
- "{n} candles left out: no trade on any market for 10 min or more": {
-  "one": "{n} mum dışarıda bırakıldı: hiçbir piyasada 10 dk veya daha uzun süre işlem yok",
-  "other": "{n} mum dışarıda bırakıldı: hiçbir piyasada 10 dk veya daha uzun süre işlem yok"
- },
+ "{n} candles without recorded flow": {"one":"Kaydedilmiş akışı olmayan {n} mum","other":"Kaydedilmiş akışı olmayan {n} mum"},
+ "{n} candles left out: no trade on any market for 10 min or more": {"one":"{n} mum dışarıda bırakıldı: hiçbir piyasada 10 dk veya daha uzun süre işlem yok","other":"{n} mum dışarıda bırakıldı: hiçbir piyasada 10 dk veya daha uzun süre işlem yok"},
  "the CVD starts again inside it": "CVD bunun içinde yeniden başlıyor",
  "The Delta pane is hidden: these are the candles it last held.": "Delta bölmesi gizli: bunlar onun en son tuttuğu mumlar.",
  "Delta uses all prices.": "Delta tüm fiyatları kullanır.",
@@ -2634,10 +2529,7 @@
  "Last close in whole range": "Tüm aralıkta son kapanış",
  "Candle volume / bp of whole range": "Mum hacmi / tüm aralığın bp'si",
  "The running sum's change over the selection: the same as its delta.": "Kayan toplamın seçimdeki değişimi: deltasıyla aynıdır.",
- "{n} minutes unknown": {
-  "one": "{n} dakika bilinmiyor",
-  "other": "{n} dakika bilinmiyor"
- },
+ "{n} minutes unknown": {"one":"{n} dakika bilinmiyor","other":"{n} dakika bilinmiyor"},
  "per candle only": "yalnızca mum başına",
  "Each candle's point of control against the one before it: no total over a stretch.": "Her mumun kontrol noktası bir öncekine karşı: bir dilim üzerinde toplam yok.",
  "Net buying / price down": "Net alım / fiyat aşağı",
@@ -2655,25 +2547,16 @@
  "The Bar stats pane last drew another market, timeframe or choice of stats: show it to sum up this selection.": "Çubuk istatistikleri bölmesi en son başka bir piyasa, zaman dilimi ya da istatistik seçimi çizdi: bu seçimi özetlemek için onu gösterin.",
  "The Bar stats pane has not drawn this market yet: show it to sum up this selection.": "Çubuk istatistikleri bölmesi bu piyasayı henüz çizmedi: bu seçimi özetlemek için onu gösterin.",
  "No {tf} candle of the Bar stats pane starts in this range.": "Çubuk istatistikleri bölmesinin {tf} mumlarından hiçbiri bu aralıkta başlamıyor.",
- "{n} markets of the footprint": {
-  "one": "Footprint'in {n} piyasası",
-  "other": "Footprint'in {n} piyasası"
- },
+ "{n} markets of the footprint": {"one":"Footprint'in {n} piyasası","other":"Footprint'in {n} piyasası"},
  "candles of {market}": "{market} mumları",
- "open interest of {n} markets": {
-  "one": "{n} piyasanın açık pozisyonu",
-  "other": "{n} piyasanın açık pozisyonu"
- },
+ "open interest of {n} markets": {"one":"{n} piyasanın açık pozisyonu","other":"{n} piyasanın açık pozisyonu"},
  "The Bar stats pane is hidden: these are the candles it last held.": "Çubuk istatistikleri bölmesi gizli: bunlar onun en son tuttuğu mumlar.",
  "Bar stats use all prices.": "Çubuk istatistikleri tüm fiyatları kullanır.",
  "Candles with executions held": "Kaydedilmiş gerçekleşmesi olan mumlar",
  "{k} of {n}": "{n} içinden {k}",
  "Recorded minutes held": "Kaydedilen dakikalar",
  "Coverage unknown": "Kapsam bilinmiyor",
- "{n} minutes": {
-  "one": "{n} dakika",
-  "other": "{n} dakika"
- },
+ "{n} minutes": {"one":"{n} dakika","other":"{n} dakika"},
  "Recorded minutes, any market": "Kaydedilen dakikalar, herhangi bir piyasa",
  "A minute counts once any market counted has a trade recorded in it, not every market.": "Sayılan piyasalardan herhangi birinde kayıtlı bir işlem varsa dakika sayılır; her piyasada olması gerekmez.",
  "Over the selection": "Seçim boyunca",
@@ -2718,10 +2601,7 @@
  "Time mean over covered time": "Kapsanan süre boyunca zamana göre ortalama",
  "Last held share against the time mean": "Son eldeki pay, zamana göre ortalamaya karşı",
  "Covered by readings": "Okumalarla kapsanan",
- "{n} readings · nominal period {period}": {
-  "one": "{n} okuma · nominal periyot {period}",
-  "other": "{n} okuma · nominal periyot {period}"
- },
+ "{n} readings · nominal period {period}": {"one":"{n} okuma · nominal periyot {period}","other":"{n} okuma · nominal periyot {period}"},
  "at 50 %: {time}": "%50'de: {time}",
  "Changes over shared moments": "Ortak anlardaki değişimler",
  "Highest minus lowest long share at those moments": "Bu anlarda en yüksek eksi en düşük long payı",
@@ -2770,14 +2650,8 @@
  "Each settlement counts for the interval it paid for, as the steps draw it; the share of time is of the time the settlements represent.": "Her ödeme, ödediği aralık kadar sayılır, basamakların çizdiği gibi; zaman payı, ödemelerin temsil ettiği süreye göredir.",
  "Lowest – highest rate": "En düşük – en yüksek oran",
  "Time-weighted mean rate": "Zaman ağırlıklı ortalama oran",
- "{n} completed hourly records": {
-  "one": "{n} tamamlanan saatlik kayıt",
-  "other": "{n} tamamlanan saatlik kayıt"
- },
- "{n} settlements represent part or all of this selection": {
-  "one": "{n} ödeme bu seçimin bir kısmını ya da tamamını temsil ediyor",
-  "other": "{n} ödeme bu seçimin bir kısmını ya da tamamını temsil ediyor"
- },
+ "{n} completed hourly records": {"one":"{n} tamamlanan saatlik kayıt","other":"{n} tamamlanan saatlik kayıt"},
+ "{n} settlements represent part or all of this selection": {"one":"{n} ödeme bu seçimin bir kısmını ya da tamamını temsil ediyor","other":"{n} ödeme bu seçimin bir kısmını ya da tamamını temsil ediyor"},
  "{list} intervals": "{list} aralıkları",
  "Current-hour funding estimate": "Mevcut saatin fonlama tahmini",
  "Indicative funding now": "Şu an gösterge niteliğinde fonlama",
@@ -2793,10 +2667,7 @@
  "Base-rate premium band": "Baz oranlı prim bandı",
  "Readings inside the band": "Bant içindeki okumalar",
  "Readings below / above it": "Altındaki / üstündeki okumalar",
- "{n} completed readings": {
-  "one": "{n} tamamlanan okuma",
-  "other": "{n} tamamlanan okuma"
- },
+ "{n} completed readings": {"one":"{n} tamamlanan okuma","other":"{n} tamamlanan okuma"},
  "Inside the band funding settles at the base rate; readings are samples, not time spent.": "Bandın içinde fonlama baz oranda ödenir; okumalar örneklerdir, geçirilen süre değil.",
  "Who opened (estimate)": "Kimin açtığı (tahmin)",
  "Buyer-led OI additions {amount}": "Alıcı öncülüğündeki OI eklemeleri {amount}",
@@ -2805,10 +2676,7 @@
  "No sided additions estimated in these hours.": "Bu saatlerde taraf atanan ekleme tahmin edilmedi.",
  "No closed hour of who opened lies wholly inside this selection.": "Hiçbir kapanmış “kimin açtığı” saati tamamen bu seçimin içinde değil.",
  "{hours} held. Share of sided positive OI additions, estimated from minute open interest and taker flow; not counted openings.": "Eldeki: {hours}. Taraf atanan pozitif OI eklemelerinin payı, dakikalık açık pozisyon ve taker akışından tahmin edilir; sayılmış açılışlar değildir.",
- "{n} closed hourly estimates": {
-  "one": "{n} kapanmış saatlik tahmin",
-  "other": "{n} kapanmış saatlik tahmin"
- },
+ "{n} closed hourly estimates": {"one":"{n} kapanmış saatlik tahmin","other":"{n} kapanmış saatlik tahmin"},
  "Positive funding: longs pay shorts. Negative funding: shorts pay longs.": "Pozitif fonlama: long'lar short'lara öder. Negatif fonlama: short'lar long'lara öder.",
  "After the newest hourly record held": "Eldeki en yeni saatlik kayıttan sonra",
  "No hourly record held": "Eldeki saatlik kayıt yok",
@@ -2829,10 +2697,7 @@
  "Script values are for all prices.": "Betik değerleri tüm fiyatlar içindir.",
  "Hidden in the pane: left out.": "Bölmede gizli: dışarıda bırakıldı.",
  "the run begins at {time}": "çalışma {time} itibarıyla başlıyor",
- "{n} candles missing": {
-  "one": "{n} mum eksik",
-  "other": "{n} mum eksik"
- },
+ "{n} candles missing": {"one":"{n} mum eksik","other":"{n} mum eksik"},
  "newer closed candles are not in its last run": "daha yeni kapanmış mumlar son çalışmasında yok",
  "Its last run holds {k} of the {n} closed candles in this selection": "Son çalışması bu seçimdeki {n} kapanmış mumun {k} tanesini içeriyor",
  "No value in this selection": "Bu seçimde değer yok",
@@ -2842,14 +2707,8 @@
  "First value {start} · last {end}": "İlk değer {start} · son {end}",
  "{plot}: marks in the script output": "{plot}: betik çıktısındaki işaretler",
  "{plots}: plots of several fields; a range summary is not available for them yet.": "{plots}: birden çok alanlı çizimler; bunlar için henüz özet yok.",
- "{n} plots set invisible are left out.": {
-  "one": "Görünmez yapılmış {n} çizim dışarıda bırakıldı.",
-  "other": "Görünmez yapılmış {n} çizim dışarıda bırakıldı."
- },
- "{n} warnings in its last run: see the Scripts panel.": {
-  "one": "Son çalışmasında {n} uyarı: Betikler paneline bakın.",
-  "other": "Son çalışmasında {n} uyarı: Betikler paneline bakın."
- },
+ "{n} plots set invisible are left out.": {"one":"Görünmez yapılmış {n} çizim dışarıda bırakıldı.","other":"Görünmez yapılmış {n} çizim dışarıda bırakıldı."},
+ "{n} warnings in its last run: see the Scripts panel.": {"one":"Son çalışmasında {n} uyarı: Betikler paneline bakın.","other":"Son çalışmasında {n} uyarı: Betikler paneline bakın."},
  "Unit not declared by this script.": "Birim bu betik tarafından bildirilmedi.",
  "Values are not added up. Shown values and changes are rounded on their own.": "Değerler toplanmaz. Gösterilen değerler ve değişimler ayrı ayrı yuvarlanır.",
  "A drag across the Depth pane sums up each band over the columns drawn at this zoom, each counting for the time it overlaps the selection: the mean bids and asks and the first and last column, and the watched band's mean imbalance. Only columns holding every venue's book are measured; bands are never added together. With Liquidation levels it gives the snapshots in force, when their positions stood and were fetched, and each band's first and last levels: potential liquidations, not liquidations that happened.": "Derinlik bölmesinde sürükleme, bu yakınlaştırmada çizilen sütunlar üzerinden her bandı özetler; her sütun, seçimle kesiştiği süre kadar sayılır: ortalama bid'ler ve ask'ler ile ilk ve son sütun, ve izlenen bandın ortalama dengesizliği. Yalnızca her borsanın emir defterini içeren sütunlar ölçülür; bantlar asla birbirine eklenmez. Tasfiye seviyeleri kaynağıyla geçerli anlık görüntüleri, pozisyonlarının ne zamana ait olduğunu ve ne zaman alındığını, ve her bandın ilk ve son seviyelerini verir: gerçekleşen tasfiyeler değil, olası tasfiyeler.",
@@ -2880,10 +2739,7 @@
  "Columns cover {k} of {span}": "Sütunlar {span} içinden {k} kapsıyor",
  "Based on the columns drawn at this zoom. Each column is weighted by its overlap with the selection; results can change with zoom, and a column across the selection's edge takes in the minute beyond it. Bands overlap and are never added together.": "Bu yakınlaştırmada çizilen sütunlara dayanır. Her sütun, seçimle kesişimine göre ağırlıklandırılır; sonuçlar yakınlaştırmayla değişebilir ve seçimin kenarını aşan bir sütun, ötesindeki dakikayı da kapsar. Bantlar çakışır ve asla birbirine eklenmez.",
  "Tracked liquidation levels": "Takip edilen tasfiye seviyeleri",
- "{n} snapshots in force": {
-  "one": "{n} geçerli anlık görüntü",
-  "other": "{n} geçerli anlık görüntü"
- },
+ "{n} snapshots in force": {"one":"{n} geçerli anlık görüntü","other":"{n} geçerli anlık görüntü"},
  "Beyond the liquidation history's reach, left out: {bands}.": "Tasfiye geçmişinin ulaşmadığı için dışarıda bırakıldı: {bands}.",
  "No liquidation levels snapshot was in force in this selection.": "Bu seçimde geçerli bir tasfiye seviyeleri anlık görüntüsü yoktu.",
  "First snapshot: positions as of {asOf}, fetched {read}; last: positions as of {asOf2}, fetched {read2}.": "İlk anlık görüntü: {asOf} itibarıyla pozisyonlar, {read} zamanında alındı; sonuncusu: {asOf2} itibarıyla pozisyonlar, {read2} zamanında alındı.",
@@ -2930,10 +2786,7 @@
  "no window held: {time}": "eldeki pencere yok: {time}",
  "Windows cover {k} of {span}": "Pencereler {span} içinden {k} kapsıyor",
  "Windows holding all {n} venues cover {k} of {span}": "{n} borsanın tümünü içeren pencereler {span} içinden {k} kapsıyor",
- "{n} included windows": {
-  "one": "{n} dahil edilen pencere",
-  "other": "{n} dahil edilen pencere"
- },
+ "{n} included windows": {"one":"{n} dahil edilen pencere","other":"{n} dahil edilen pencere"},
  "Each included window is weighted by its overlap with the selection. Windows missing a venue are left out, so the set of venues stays the same.": "Dahil edilen her pencere, seçimle kesişimine göre ağırlıklandırılır. Bir borsası eksik olan pencereler dışarıda bırakılır; böylece borsa kümesi aynı kalır.",
  "No column of this selection has a price centre: one side of the book is empty.": "Bu seçimdeki hiçbir sütunun fiyat merkezi yok: emir defterinin bir tarafı boş.",
  "Each pane under the map has its own Range button in its header, the dashed box before its menu: press it, then drag across that pane to sum it up in its terms (it lights while it waits for the drag and while the panel shows that pane). The panel opens beside the selection, and stays where you drag it.": "Haritanın altındaki her panelin başlığında kendi Aralık düğmesi vardır, menüsünden önceki kesikli kutu: ona basın, sonra o paneli kendi terimleriyle özetlemek için üzerinde sürükleyin (sürüklemeyi beklerken ve pencere o paneli gösterirken yanar). Pencere seçimin yanında açılır ve sürüklediğiniz yerde kalır.",
@@ -2968,10 +2821,7 @@
  "Covered by hourly records": "Saatlik kayıtlarla kapsanan",
  "Covered by settlements": "Ödemelerle kapsanan",
  "Combined level": "Toplam seviye",
- "Rank among the {n}-candle windows held": {
-  "one": "Eldeki {n} mumluk pencereler arasında sıra",
-  "other": "Eldeki {n} mumluk pencereler arasında sıra"
- },
+ "Rank among the {n}-candle windows held": {"one":"Eldeki {n} mumluk pencereler arasında sıra","other":"Eldeki {n} mumluk pencereler arasında sıra"},
  "#{r} of {m} by size of change (closed, overlapping windows)": "değişim büyüklüğüne göre {m} içinde {r}. (kapanmış, örtüşen pencereler)",
  "OI from {levels} of {n} venues (changes from {changes})": "{n} borsanın {levels} tanesinden OI (değişimler {changes} tanesinden)",
  "opposite to the total": "toplamın tersine",
@@ -3010,10 +2860,7 @@
  "Orders may be missing here: the stream reconnected.": "Burada emirler eksik olabilir: akış yeniden bağlandı.",
  "Each order": "Her emir",
  "1 second": "1 saniye",
- "{n} seconds": {
-  "one": "{n} saniye",
-  "other": "{n} saniye"
- },
+ "{n} seconds": {"one":"{n} saniye","other":"{n} saniye"},
  "Group by": "Grupla",
  "Block details": "Blok ayrıntıları",
  "Custom…": "Özel…",
@@ -3068,115 +2915,15 @@
  "A low is strong once the rise away from it breaks the swing high it fell from (buyers took over there), and weak until then; a high, likewise, once the fall from it breaks the low it rose from. A level runs on to the right edge with its name and price until the price trades at it again; a tested one ends there, hidden unless Tested levels shows it, with a cross.": "Bir dip, ondan başlayan yükseliş düştüğü salınım tepesini kırınca güçlü olur (orada alıcılar kontrolü aldı), o zamana kadar zayıftır; bir tepe de aynı şekilde, ondan başlayan düşüş yükseldiği dibi kırınca. Bir seviye, fiyat ona yeniden gelene kadar adı ve fiyatıyla sağ kenara uzanır; test edilen orada biter, “Tested levels” göstermedikçe gizlidir, bir çarpıyla.",
  "The swing size, whether a break counts by the close or the wick, the colours and the names are settings. It maps where the structure stands, not where price goes: whether a weak level draws price back or a strong one holds has not been tested here.": "Salınım boyutu, kırılmanın kapanışla mı fitille mi sayılacağı, renkler ve adlar ayarlardır. Fiyatın nereye gideceğini değil, yapının nerede durduğunu gösterir: zayıf bir seviyenin fiyatı geri çekip çekmediği ya da güçlü birinin tutup tutmadığı burada test edilmedi.",
  "LiquidityMapperFast is free to use: no account, nothing to sign up for, and the code is open source.": "LiquidityMapperFast ücretsiz kullanılır: hesap yok, üye olmak gerekmez ve kod açık kaynaklıdır.",
- "It reads public exchange data straight from your browser, and nothing you do here is sent anywhere. Plus, an optional paid part, pays for the servers behind the page and opens the history they store; its checkout is on a page of its own.": "Herkese açık borsa verilerini doğrudan tarayıcınızda okur ve burada yaptığınız hiçbir şey bir yere gönderilmez. İsteğe bağlı ücretli bir bölüm olan Plus, sayfanın arkasındaki sunucuların masrafını karşılar ve onların sakladığı geçmişi erişime açar; ödeme işlemi ayrı bir sayfada yapılır.",
  "It is built in free time, so things can occasionally break; tell me when they do.": "Boş zamanlarda yapılıyor, bu yüzden zaman zaman bir şeyler bozulabilir; bozulduğunda bana haber verin.",
- "How these levels changed over time: opens the Depth pane on Liquidation levels. The last {n} days are free; older history is part of Plus.": "Bu seviyelerin zaman içinde nasıl değiştiği: Derinlik panelini “Tasfiye seviyeleri” kaynağıyla açar. Son {n} gün ücretsizdir; daha eski geçmiş Plus'a dahildir.",
- "Earlier history: Plus": "Daha eski geçmiş: Plus",
- "The liquidation levels' history is free for the last {n} days. What is older is part of Plus, which pays for the servers that record it. Press for what Plus is.": "Tasfiye seviyelerinin geçmişi son {n} gün için ücretsizdir. Daha eskisi, onu kaydeden sunucuların masrafını karşılayan Plus'a dahildir. Plus'ın ne olduğunu görmek için basın.",
- "This stretch of the liquidation levels' history is part of Plus.": "Tasfiye seviyeleri geçmişinin bu dilimi Plus'a dahildir.",
- "The checkout could not be loaded. Check your connection, or a blocker that stops paddle.com, and try again.": "Ödeme ekranı yüklenemedi. Bağlantınızı ya da paddle.com adresine erişimi kesen bir engelleyiciyi kontrol edip yeniden deneyin.",
- "Paid. Setting up Plus in this browser…": "Ödendi. Plus bu tarayıcıda etkinleştiriliyor…",
- "Thank you. Plus is on in this browser.": "Teşekkürler. Plus bu tarayıcıda etkin.",
- "The payment went through, but Plus could not be set up here yet. Use the email and the invoice number from your receipt below in a few minutes; nothing is lost.": "Ödemeniz alındı, ancak Plus burada henüz etkinleştirilemedi. Birkaç dakika sonra makbuzunuzdaki e-posta adresini ve fatura numarasını aşağıdaki alanlara girin; hiçbir şey kaybolmaz.",
- "That does not look like a key.": "Bu bir anahtara benzemiyor.",
- "Plus is on in this browser.": "Plus bu tarayıcıda etkin.",
- "Plus is on in this browser, until {date}.": "Plus bu tarayıcıda {date} tarihine kadar etkin.",
- "Back to the map in {n} s": "{n} sn sonra haritaya dönülüyor",
- "Stay here": "Burada kal",
- "That key is not known, or its subscription has ended.": "Bu anahtar tanınmıyor ya da aboneliği sona ermiş.",
- "The server could not be reached. Try again in a moment.": "Sunucuya ulaşılamadı. Birazdan yeniden deneyin.",
- "Enter the email you paid with and the invoice number from your receipt.": "Ödemede kullandığınız e-posta adresini ve makbuzunuzdaki fatura numarasını girin.",
- "Found. Plus is on in this browser.": "Bulundu. Plus bu tarayıcıda etkin.",
- "No subscription in good standing was found for that email and invoice number.": "Bu e-posta adresi ve fatura numarası için geçerli bir abonelik bulunamadı.",
- "Not on sale yet": "Henüz satışta değil",
- "Plus is being set up. This page will carry its price and the checkout when it opens.": "Plus hazırlanıyor. Satışa açıldığında fiyatı ve ödeme ekranı bu sayfada yer alacak.",
- "{price} a month": "Aylık {price}",
- "renews each month": "her ay yenilenir",
- "{price} a year": "Yıllık {price}",
- "renews each year": "her yıl yenilenir",
- "Renew Plus": "Plus'ı yenile",
- "Get Plus": "Plus'ı al",
- "Prices are before tax; the checkout shows the total in your currency. You can end Plus at any time, and it then runs to the end of the period paid for.": "Fiyatlara vergi dahil değildir; ödeme ekranı toplam tutarı kendi para biriminizde gösterir. Plus'ı istediğiniz zaman iptal edebilirsiniz; bu durumda ödenen dönemin sonuna kadar geçerli kalır.",
- "Our order process is conducted by our online reseller Paddle.com. Paddle.com is the Merchant of Record for all our orders. Paddle provides all customer service inquiries and handles returns.": "Sipariş sürecimiz, çevrimiçi yetkili satıcımız Paddle.com tarafından yürütülür. Paddle.com, tüm siparişlerimizde kayıtlı satıcıdır (Merchant of Record). Paddle, tüm müşteri hizmetleri taleplerini yanıtlar ve iade işlemlerini yürütür.",
- "Remove Plus from this browser": "Plus'ı bu tarayıcıdan kaldır",
- "Press again to remove it": "Kaldırmak için tekrar basın",
- "Plus is on in this browser": "Plus bu tarayıcıda etkin",
- "Plus has ended in this browser": "Plus bu tarayıcıda sona erdi",
- "Paid until {date}. It renews by itself until you end it.": "{date} tarihine kadar ödendi. Siz iptal edene kadar otomatik olarak yenilenir.",
- "It renews by itself until you end it.": "Siz iptal edene kadar otomatik olarak yenilenir.",
- "Your key": "Anahtarınız",
- "Hide": "Gizle",
- "Copied": "Kopyalandı",
- "Could not copy: show the key and copy it by hand.": "Kopyalanamadı: anahtarı gösterip elle kopyalayın.",
- "End the subscription or change the card": "Aboneliği iptal et veya kartı değiştir",
- "To end the subscription or change the card, use the link in your receipt from Paddle.": "Aboneliği iptal etmek veya kartı değiştirmek için Paddle'dan gelen makbuzdaki bağlantıyı kullanın.",
- "Open the map": "Haritayı aç",
- "Email you paid with": "Ödemede kullandığınız e-posta",
- "Invoice number": "Fatura numarası",
- "Checking…": "Kontrol ediliyor…",
- "Use this key": "Bu anahtarı kullan",
- "Looking…": "Aranıyor…",
- "Find my Plus": "Plus'ımı bul",
- "Already have Plus?": "Zaten Plus'ınız var mı?",
- "Enter your key to use Plus in this browser.": "Plus'ı bu tarayıcıda kullanmak için anahtarınızı girin.",
- "No key at hand? The email you paid with and the invoice number on your receipt bring it back.": "Anahtar elinizin altında değil mi? Ödemede kullandığınız e-posta adresi ve makbuzunuzdaki fatura numarası onu geri getirir.",
- "Plus pays for the servers behind LiquidityMapperFast and opens what they store. The page itself stays free and open source.": "Plus, LiquidityMapperFast sitesinin arkasındaki sunucuların masrafını karşılar ve onların sakladıklarını erişime açar. Sayfanın kendisi ücretsiz ve açık kaynak kalır.",
- "The Depth pane showing three weeks of liquidation levels: shorts above, longs below, in bands by distance from the price.": "Üç haftalık tasfiye seviyelerini gösteren Derinlik paneli: short'lar üstte, long'lar altta, fiyata uzaklığa göre bantlar hâlinde.",
- "Hyperliquid's BTC liquidation levels through time, in the Depth pane: how much would be liquidated within each distance of the price, snapshot after snapshot.": "Hyperliquid'in BTC tasfiye seviyeleri zaman içinde, Derinlik panelinde: fiyata her uzaklık içinde ne kadarının tasfiye edileceği, anlık görüntüden anlık görüntüye.",
- "What Plus adds": "Plus neler ekler",
- "The whole history of the liquidation levels, back to {date}. Without Plus the pane draws the last {n} days.": "Tasfiye seviyelerinin tüm geçmişi, {date} tarihinden bugüne kadar. Plus olmadan panel son {n} günü çizer.",
- "The whole history of the liquidation levels, as far back as it is recorded. Without Plus the pane draws the last {n} days.": "Tasfiye seviyelerinin tüm geçmişi, kaydedildiği en eski güne kadar. Plus olmadan panel son {n} günü çizer.",
- "A new snapshot about every half hour, kept for good: the history grows by a day every day.": "Yaklaşık her yarım saatte yeni bir anlık görüntü alınır ve kalıcı olarak saklanır: geçmiş her gün bir gün büyür.",
- "The liquidation levels of the profitable traders, live and through time: the wallets HyperTracker counts as profitable, its four cohorts with a positive all-time perp profit.": "Kârlı trader'ların tasfiye seviyeleri, canlı ve geçmişte: HyperTracker'ın kârlı saydığı cüzdanlar, yani tüm zamanlarda perp kârı pozitif olan dört kohortu.",
- "The stop and take-profit levels: where open orders would close positions, live and through time, on their own or together with the liquidations.": "Stop ve kâr al seviyeleri: açık emirlerin pozisyonları kapatacağı yerler, canlı ve geçmişte, tek başına ya da tasfiyelerle birlikte.",
- "What stays free": "Neler ücretsiz kalır",
- "Everything the page does today: the map, the order book, the flow, every pane and tool, the live liquidation levels of all traders and the last {n} days of their history.": "Sayfanın bugün yaptığı her şey: harita, emir defteri, akış, her panel ve araç, tüm trader'ların canlı tasfiye seviyeleri ve bunların geçmişinin son {n} günü.",
- "There is no account. After the checkout this browser holds a key, and the key is all it takes on another device.": "Hesap yok. Ödeme işleminden sonra bu tarayıcıda bir anahtar saklanır; başka bir cihazda gereken tek şey bu anahtardır.",
- "Terms": "Koşullar",
- "Privacy": "Gizlilik",
- "Refunds": "İadeler",
- "Questions about the page: {email}. Questions about a payment go to Paddle, which sold it: paddle.net.": "Sayfayla ilgili sorular: {email}. Bir ödemeyle ilgili sorular için satışı yapan Paddle'a başvurun: paddle.net.",
- "in the Guide, with pictures": "Kılavuz'da, görsellerle",
- "Paid until {date}. It renews by itself; you can end it on the Plus page at any time.": "{date} tarihine kadar ödendi. Otomatik olarak yenilenir; istediğiniz zaman Plus sayfasından iptal edebilirsiniz.",
- "You can end it on the Plus page at any time.": "İstediğiniz zaman Plus sayfasından iptal edebilirsiniz.",
- "Manage Plus": "Plus'ı yönet",
- "your key, another device, ending it": "anahtarınız, başka bir cihaz, iptal",
- "Plus has ended in this browser.": "Plus bu tarayıcıda sona erdi.",
- "Plus opens what this site's servers store: the liquidation levels' whole history (without Plus, the last {n} days), the levels of HyperTracker's profitable traders, and the stop and take-profit levels.": "Plus, bu sitenin sunucularının sakladıklarını erişime açar: tasfiye seviyelerinin tüm geçmişini (Plus olmadan son {n} gün), HyperTracker'ın kârlı trader'larının seviyelerini, stop ve kâr al seviyelerini.",
- "Everything the page does today stays free. Plus pays for the servers behind it.": "Sayfanın bugün yaptığı her şey ücretsiz kalır. Plus, sayfanın arkasındaki sunucuların masrafını karşılar.",
- "There is no account: after the checkout this browser holds a key, which you can take to another device.": "Hesap yok: ödeme işleminden sonra bu tarayıcıda bir anahtar saklanır; bu anahtarı başka bir cihaza taşıyabilirsiniz.",
- "opens the Plus page": "Plus sayfasını açar",
- "the Plus page says when": "ne zaman olacağını Plus sayfası söyler",
  "You can take the tour any time from the Guide.": "Turu istediğiniz zaman Kılavuz'dan başlatabilirsiniz.",
  "Who made this, and where to find the code. Free to use, no account, open source.": "Bunu kimin yaptığı ve kodun nerede bulunacağı. Kullanımı ücretsiz, hesap yok, açık kaynak.",
  "The Guide tells the whole story, with moving pictures, and its first button plays this tour again. Press ? for the keys.": "Kılavuz her şeyi hareketli görsellerle baştan sona anlatır; ilk düğmesi bu turu yeniden başlatır. Kısayol tuşlarını görmek için ? tuşuna basın.",
- "Reveal": "Göster",
- "part of Plus: {time}": "Plus'a dahil: {time}",
- "This subscription was given {n} keys within a day. Use one of them, or try again tomorrow.": "Bu aboneliğe bir gün içinde {n} anahtar verildi. Bunlardan birini kullanın ya da yarın yeniden deneyin.",
- "Too many tries. Try again in {n} min.": "Çok fazla deneme yapıldı. {n} dk sonra yeniden deneyin.",
- "Too many tries. Try again later.": "Çok fazla deneme yapıldı. Daha sonra yeniden deneyin.",
- "The payment went through, but the server would not set up Plus for it. Write to {email} with your receipt; nothing is lost.": "Ödemeniz alındı, ancak sunucu bu ödeme için Plus'ı etkinleştirmedi. Makbuzunuzla birlikte {email} adresine yazın; hiçbir şey kaybolmaz.",
- "Checking Plus with the server…": "Plus sunucuyla doğrulanıyor…",
- "Plus runs until {date}.": "Plus {date} tarihine kadar geçerli.",
- "This key no longer opens Plus: its subscription has ended, or the key was replaced by newer ones.": "Bu anahtar artık Plus'ı açmıyor: aboneliği sona ermiş ya da yerini daha yeni anahtarlar almış.",
- "Subscribing again below brings Plus back, with a new key.": "Aşağıdan yeniden abone olursanız Plus yeni bir anahtarla geri gelir.",
- "This browser would not keep Plus: it lasts until this tab closes. Copy the key now and enter it again next time.": "Bu tarayıcı Plus'ı saklamadı: Plus bu sekme kapanana kadar geçerli. Anahtarı şimdi kopyalayın ve bir dahaki sefere yeniden girin.",
- "The key is your Plus on your other devices too: open this page there and enter it. Keep it to yourself.": "Anahtar, Plus'ınızı diğer cihazlarınıza da taşır: bu sayfayı orada açıp anahtarı girin. Kimseyle paylaşmayın.",
- "What you type here is sent to this site's server to find your subscription; it asks Paddle, which sold it, about the invoice number.": "Buraya yazdıklarınız, aboneliğinizi bulmak için bu sitenin sunucusuna gönderilir; sunucu fatura numarasını satışı yapan Paddle'a sorar.",
- "With Plus, the button at the top of the liquidation column (the panel and the phone's Liq tab have the same choice) shows stop orders instead of liquidations, or both added together; take profits, always dashed, as a lane of their own next to the newest candle and as bars from the column's right edge; and the liquidations of the profitable traders alone: the wallets HyperTracker counts as profitable, its four cohorts with a positive all-time perp profit. The Depth pane's history follows the same choice.": "Plus ile tasfiye sütununun üstündeki düğme (panelde ve telefondaki Tasfiye sekmesinde aynı seçim vardır) tasfiyeler yerine stop emirlerini ya da ikisinin toplamını; kâr al emirlerini, her zaman kesikli olarak, en yeni mumun yanında kendi kulvarında ve sütunun sağ kenarından başlayan çubuklar olarak; ve yalnızca kârlı trader'ların, yani HyperTracker'ın kârlı saydığı cüzdanların, tüm zamanlarda perp kârı pozitif olan dört kohortunun tasfiyelerini gösterir. Derinlik panelinin geçmişi de aynı seçimi izler.",
- "With Plus it shows what the liquidation column shows: stops, or liquidations and stops added together (only snapshots that have both, about one an hour, since not every snapshot has its orders read), a trader group's liquidations, and take profits as a dashed line each side of the band you watch. A view wider than 120 days reads a row per four hours, in the preset bands only.": "Plus ile tasfiye sütununun gösterdiğini gösterir: stopları ya da tasfiyeler ile stopların toplamını (yalnızca ikisini de içeren anlık görüntüler, saatte yaklaşık bir tane, çünkü her anlık görüntünün emirleri okunmaz), bir trader grubunun tasfiyelerini ve izlediğiniz bandın iki yanında kesikli çizgi olarak kâr al emirlerini. 120 günden geniş bir görünüm dört saatte bir satır okur, yalnızca hazır bantlarda.",
- "Stops have no trader groups: the choice is for liquidations.": "Stopların trader grupları yoktur: bu seçim tasfiyeler içindir.",
  "Take profits": "Kâr al",
  "Take profits not included": "Kâr al emirleri dahil değil",
  "Total {total} = liquidations {liq} + stops {stops}": "Toplam {total} = tasfiyeler {liq} + stoplar {stops}",
  "The curve totals the selected liquidations and/or stops. Take profits are shown separately.": "Eğri, seçilen tasfiyeleri ve/veya stopları toplar. Kâr al emirleri ayrı gösterilir.",
- "Take-profit orders as a layer of their own beside the levels: the sells that close longs above the price, the buys that close shorts below it.": "Kâr al emirleri, seviyelerin yanında ayrı bir katman olarak: fiyatın üstünde long'ları kapatan satışlar, altında short'ları kapatan alışlar.",
- "Traders": "Trader'lar",
- "Stops have no trader groups.": "Stopların trader grupları yoktur.",
  "What these are": "Bunlar nedir",
- "What the levels show": "Seviyelerin gösterdiği",
- "Profitable traders: the wallets HyperTracker counts as profitable, its four cohorts with a positive all-time perp profit.": "Kârlı trader'lar: HyperTracker'ın kârlı saydığı cüzdanlar, yani tüm zamanlarda perp kârı pozitif olan dört kohortu.",
- "Without Plus the page shows liquidations of all traders. Your choice is kept and comes back with Plus.": "Plus olmadan sayfa tüm trader'ların tasfiyelerini gösterir. Seçiminiz saklanır ve Plus ile geri gelir.",
  "Stops": "Stoplar",
  "Liq + stops": "Tasfiye + stop",
  "Stop levels": "Stop seviyeleri",
@@ -3210,8 +2957,6 @@
  "take profits could not be read": "kâr al emirleri okunamadı",
  "take profits are not ready yet": "kâr al emirleri henüz hazır değil",
  "take profits are loading": "kâr al emirleri yükleniyor",
- "Shown: {what}. Your choice is part of Plus and comes back with it. Press to choose what the levels show.": "Gösterilen: {what}. Seçiminiz Plus'a dahildir ve Plus ile geri gelir. Seviyelerin ne göstereceğini seçmek için basın.",
- "Shown: {what}. Press to choose what the levels show: liquidations, stops or both, take profits, and whose.": "Gösterilen: {what}. Seviyelerin ne göstereceğini seçmek için basın: tasfiyeler, stoplar ya da ikisi, kâr al emirleri ve kimin.",
  "No levels in this range": "Bu aralıkta seviye yok",
  "Book against stops": "Defter ve stoplar",
  "Book against liquidations and stops": "Defter, tasfiyeler ve stoplar",
@@ -3225,11 +2970,6 @@
  "Take profits above / below": "Kâr al emirleri üstte / altta",
  "Stops of longs · shorts within each distance of the price, from HyperTracker's snapshot of the orders on Hyperliquid's BTC: where the orders rest, not what will trigger.": "Fiyata her uzaklık içinde long · short'ların stopları, HyperTracker'ın Hyperliquid BTC emirleri anlık görüntüsünden: emirlerin nerede beklediği, neyin tetikleneceği değil.",
  "Longs · shorts that would be liquidated or stopped out within each distance of the price, from HyperTracker's snapshot of Hyperliquid's BTC positions and orders: where the money sits, not what will happen.": "Fiyata her uzaklık içinde tasfiye edilecek ya da stop olacak long · short'lar, HyperTracker'ın Hyperliquid BTC pozisyonları ve emirleri anlık görüntüsünden: paranın nerede durduğu, ne olacağı değil.",
- "The server turned the request down. Try again later, or without a VPN or blocker.": "Sunucu isteği reddetti. Daha sonra ya da VPN veya engelleyici olmadan yeniden deneyin.",
- "A payment made in this browser is still being set up. The prices come back once it is, so it is not paid twice.": "Bu tarayıcıda yapılan bir ödeme hâlâ işleniyor. Tamamlanınca fiyatlar geri gelir; böylece iki kez ödenmez.",
- "Try again": "Yeniden dene",
- "This key was replaced by newer ones (a subscription holds five). The email and the invoice number from your receipt bring Plus back here.": "Bu anahtarın yerini daha yeni anahtarlar aldı (bir abonelik beş anahtar tutar). Makbuzunuzdaki e-posta adresi ve fatura numarası Plus'ı buraya geri getirir.",
- "This browser holds a key that the server has not confirmed yet. If this stays, check your connection.": "Bu tarayıcıda sunucunun henüz doğrulamadığı bir anahtar saklanıyor. Bu durum sürerse bağlantınızı kontrol edin.",
  "Tracked stop orders": "Takip edilen stop emirleri",
  "Tracked liquidations and stops": "Takip edilen tasfiyeler ve stoplar",
  "Not one of the 4-hour history's bands, left out: {bands}.": "4 saatlik geçmişin bantlarından olmadığı için dışarıda bırakıldı: {bands}.",
@@ -3241,7 +2981,6 @@
  "Potential liquidation levels of tracked positions, not liquidations that happened.": "Takip edilen pozisyonların olası tasfiye seviyeleri; gerçekleşmiş tasfiyeler değil.",
  "Each 4-hour row stands until the next, at most {time}.": "Her 4 saatlik satır bir sonrakine kadar, en fazla {time} geçerlidir.",
  "Snapshots expire after 90 minutes.": "Anlık görüntüler 90 dakika sonra geçerliliğini yitirir.",
- "Plus: the liquidation levels' whole history, the liquidations of HyperTracker's profitable traders, and stop and take-profit levels, for a monthly price that pays for the servers behind this page. Everything else stays free.": "Plus: bu sayfanın arkasındaki sunucuların masrafını karşılayan aylık bir ücretle tasfiye seviyelerinin tüm geçmişi, HyperTracker'ın kârlı trader'larının tasfiyeleri, stop ve kâr al seviyeleri. Geri kalan her şey ücretsiz kalır.",
  "A perpetual's funding and premium on one venue, or every venue's funding with their median, per eight hours; on Hyperliquid, under each hour, the share of new positions buyers opened at market.": "Bir borsadaki perpetual'in fonlaması ve primi ya da her borsanın fonlaması ve bunların medyanı, sekiz saat başına; Hyperliquid'de, her saatin altında, alıcıların piyasa emriyle açtığı yeni pozisyonların payı.",
  "Funding is what holders of a perpetual pay each other each interval to keep its price near the index. Above the zero line, filled in the buy colour, it is positive and longs pay shorts; below it, in the sell colour, shorts pay longs. It is made of the premium (how far the perpetual's price sits from the index) plus a clamp that holds it at a base rate while the premium stays close: 0.01 % per eight hours on Hyperliquid, Binance, Bybit, OKX and Bitget. Every rate here is per eight hours, so the base rate (dashed) is the same on every venue that has one, and so is the band around it: two dotted lines in the premium's colour, between which the premium moves while funding stays at the base rate, and outside which funding follows the premium. Deribit's funding is continuous and has neither. The popup gives each venue's own interval (Hyperliquid settles every hour) and the yearly rate, and the value under the pointer shows on both edges of the pane.": "Fonlama, bir perpetual'in sahiplerinin onun fiyatını endekse yakın tutmak için her aralıkta birbirine ödediği şeydir. Sıfır çizgisinin üstünde, alış renginde doldurulmuş olarak pozitiftir ve long'lar short'lara öder; altında, satış renginde, short'lar long'lara öder. Fonlama, primden (perpetual'in fiyatının endeksten ne kadar uzak durduğu) ve prim yakın kaldıkça onu bir baz oranda tutan bir sınırlayıcıdan oluşur: Hyperliquid, Binance, Bybit, OKX ve Bitget'te sekiz saat başına %0,01. Buradaki her oran sekiz saat başınadır; bu yüzden baz oran (kesikli) baz oranı olan her borsada aynıdır, çevresindeki bant da öyle: primin renginde iki noktalı çizgi; fonlama baz oranda kalırken prim bu çizgilerin arasında hareket eder, dışında ise fonlama primi izler. Deribit'in fonlaması süreklidir ve ikisine de sahip değildir. Açılır pencere her borsanın kendi aralığını (Hyperliquid her saat öder) ve yıllık oranı verir; imlecin altındaki değer panelin iki kenarında da görünür.",
  "The thick steps are funding as it settled, each over the interval it paid for, and the dashed step the one accruing now. The thin line is the premium, where the venue publishes its history (Hyperliquid each hour, Binance and Bybit per candle); OKX, Bitget and Deribit show their funding only, without the band.": "Kalın basamaklar, fonlamanın ödendiği haliyledir; her biri ödediği aralığı kapsar. Kesikli basamak, şu anda birikmekte olan fonlamadır. İnce çizgi, borsanın geçmişini yayımladığı yerlerde primdir (Hyperliquid her saat, Binance ve Bybit mum başına); OKX, Bitget ve Deribit yalnızca fonlamayı gösterir, bant yoktur.",
@@ -3258,18 +2997,9 @@
  "Premium band": "Prim bandı",
  "The Funding pane shows every venue: choose one under Venue to sum up its funding over this selection.": "Fonlama paneli tüm borsaları gösterir: bu seçim boyunca fonlamasını toplamak için Borsa altından birini seçin.",
  "Too few venues for a median here.": "Burada medyan için yeterli borsa yok.",
- "{n} layouts": {
-  "one": "{n} düzen",
-  "other": "{n} düzen"
- },
- "{n} scripts": {
-  "one": "{n} betik",
-  "other": "{n} betik"
- },
- "{n} themes": {
-  "one": "{n} tema",
-  "other": "{n} tema"
- },
+ "{n} layouts": {"one":"{n} düzen","other":"{n} düzen"},
+ "{n} scripts": {"one":"{n} betik","other":"{n} betik"},
+ "{n} themes": {"one":"{n} tema","other":"{n} tema"},
  "the settings": "ayarlar",
  "nothing but small choices": "yalnızca birkaç küçük tercih",
  "One file with everything this page keeps in this browser: the settings, your layouts, scripts, drawings and themes, the coin and the venues. Keep it, or open it in another browser or on another computer. The recorded market history is not in it.": "Bu sayfanın bu tarayıcıda sakladığı her şeyi içeren tek bir dosya: ayarlar, düzenleriniz, betikleriniz, çizimleriniz ve temalarınız, coin ve borsalar. Saklayın ya da başka bir tarayıcıda veya başka bir bilgisayarda açın. Kaydedilmiş piyasa geçmişi içinde yoktur.",
@@ -3331,10 +3061,7 @@
  "This themes file is from a newer version of the page: reload the page and try again.": "Bu tema dosyası sayfanın daha yeni bir sürümünden: sayfayı yenileyin ve tekrar deneyin.",
  "The file holds no theme this page can read.": "Dosyada bu sayfanın okuyabileceği bir tema yok.",
  "This is not a themes file.": "Bu bir tema dosyası değil.",
- "Read {n} themes.": {
-  "one": "{n} tema okundu.",
-  "other": "{n} tema okundu."
- },
+ "Read {n} themes.": {"one":"{n} tema okundu.","other":"{n} tema okundu."},
  "Read themes from a file written by Export (a name already here is replaced)": "Dışa aktar ile yazılmış bir dosyadan temaları okuyun (burada zaten olan bir ad değiştirilir)",
  "Export all": "Tümünü dışa aktar",
  "Write all your themes to one file": "Tüm temalarınızı tek bir dosyaya yazın",
@@ -3342,10 +3069,7 @@
  "Copy “{name}” and edit it": "“{name}” temasını kopyala ve düzenle",
  "At most {n} themes: delete one first.": "En fazla {n} tema: önce birini silin.",
  "A copy of this theme under a name of your own, ready to change": "Bu temanın kendi adınızla bir kopyası, değiştirmeye hazır",
- "You have {n} themes of your own: choose one in the theme menu to edit it.": {
-  "one": "Kendi {n} temanız var: düzenlemek için tema menüsünden seçin.",
-  "other": "Kendi {n} temanız var: düzenlemek için tema menüsünden birini seçin."
- },
+ "You have {n} themes of your own: choose one in the theme menu to edit it.": {"one":"Kendi {n} temanız var: düzenlemek için tema menüsünden seçin.","other":"Kendi {n} temanız var: düzenlemek için tema menüsünden birini seçin."},
  "Files": "Dosyalar",
  "A theme file holds colours only, so a theme from anyone is safe to read.": "Tema dosyası yalnızca renk içerir, bu yüzden herkesten gelen bir temayı okumak güvenlidir.",
  "Your own theme: every change shows at once and is kept in this browser.": "Kendi temanız: her değişiklik anında görünür ve bu tarayıcıda saklanır.",
@@ -3378,5 +3102,10 @@
  "longs": "long'lar",
  "shorts": "short'lar",
  "× in the table is how many times the larger side is the smaller, in its colour: 2.50× is two and a half times as much on that side; ∞, the other side has none.": "Tablodaki ×, büyük tarafın küçük tarafın kaç katı olduğunu o tarafın renginde gösterir: 2.50× o tarafta iki buçuk kat fazlası demektir; ∞, diğer tarafta hiç yok demektir.",
- "While the table is drawn it takes the popup's place; switch Table off to see the popup.": "Tablo çizili olduğu sürece açılır pencerenin yerini alır; açılır pencereyi görmek için Tablo'yu kapatın."
+ "While the table is drawn it takes the popup's place; switch Table off to see the popup.": "Tablo çizili olduğu sürece açılır pencerenin yerini alır; açılır pencereyi görmek için Tablo'yu kapatın.",
+ "How these levels changed over time: opens the Depth pane on Liquidation levels.": "Bu seviyelerin değişimi: Derinlik panelinde likidasyon seviyelerini açar.",
+ "Earlier history unavailable": "Önceki geçmiş kullanılamıyor",
+ "The upstream service provides only recent public liquidation history.": "Harici hizmet yalnızca yakın tarihli herkese açık likidasyon geçmişini sağlar.",
+ "This stretch of liquidation history is unavailable from the upstream service.": "Likidasyon geçmişinin bu dönemi harici hizmette kullanılamıyor.",
+ "unavailable history: {time}": "kullanılamayan geçmiş: {time}"
 }

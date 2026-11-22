@@ -11,7 +11,7 @@ import { niceStep } from '../view.ts';
 import { paintInfoBox } from '../infobox.ts';
 import { ratioText } from '../mirror.ts';
 import { binsIn, dollarPriceOf, liqProfile, standingBelow, TAKE_DASH, type LiqLevels, type LiqProfile, type LiqStanding } from '../liq-levels.ts';
-import { groupApplies, groupTitle, heldBack, kindTitle, liveView, plusOn } from '../liq-view.ts';
+import { groupApplies, groupTitle, kindTitle, liveView } from '../liq-view.ts';
 import { liqNote, liqWhy } from '../liq-words.ts';
 import { probeBoxLines } from '../liq-box.ts';
 import { openLiqMenu } from '../liq-menu.ts';
@@ -126,7 +126,7 @@ export class LiqPane {
   #syncHead(): void {
     const s = this.store.state.liqLevels, view = liveView(s), title = kindTitle(view.kind);
     if (this.#title.textContent !== title) this.#title.textContent = title;
-    this.#title.classList.toggle('locked', heldBack(s, plusOn()));
+    this.#title.classList.remove('locked');
     const sub = groupApplies(view.kind) && view.group !== 'all' ? `${groupTitle(view.group)} · ${t('BTC · Hyperliquid')}` : t('BTC · Hyperliquid');
     if (this.#sub.textContent !== sub) this.#sub.textContent = sub;
   }

@@ -5,7 +5,7 @@ import { DAY_MS, LIQ_HOLD_MS, LiqHistory, MAX_DAYS, bandOnEdge, dayText, familie
 import { readLiqLevels, plusUrls } from '../src/app/liq-url.ts';
 import { FREE_VIEW, effectiveView, heldBack, isFreeChoice, viewKey, type LiqView } from '../src/app/liq-view.ts';
 import { PRESET_BANDS } from '../src/app/depth-settings.ts';
-import { changeOf, isPlusChange, liqMenuItems } from '../src/app/liq-menu.ts';
+import { liqMenuItems } from '../src/app/liq-menu.ts';
 import { columnNotes, liqNote, liqWhy, splitAmounts, splitText, takesLeftOut } from '../src/app/liq-words.ts';
 import { dollars, mirrorSplits, probeBoxLines, readingTexts, stripeBoxLines } from '../src/app/liq-box.ts';
 import { usd } from '../src/app/format.ts';
@@ -323,30 +323,9 @@ test('the history asks for each choice\'s files (with the pass for every Plus on
   assert.ok(freeWide.every(u => !u.includes('/plus/')));
 });
 
-test('the menu shows the saved choice, tags every Plus choice (locked without Plus), and greys the traders while stops alone are shown', () => {
-  const rows = (s: Parameters<typeof liqMenuItems>[0], member: boolean) => Object.fromEntries(liqMenuItems(s, member).map(i => [i.id, i]));
-  const free = rows({ kind: 'both', takes: true, group: 'profitable' }, false);
-  assert.equal(free['kind:both']!.checked, true, 'the saved choice is ticked even without Plus');
-  assert.equal(free['kind:both']!.tag, 'Plus'); assert.equal(free['kind:both']!.locked, true);
-  assert.equal(free['kind:liq']!.tag, undefined, 'the free choices carry no tag');
-  assert.equal(free['group:all']!.tag, undefined);
-  assert.equal(free.takes!.checked, true); assert.equal(free.takes!.locked, true);
-  assert.equal(free['group:profitable']!.checked, true); assert.ok(!free['group:profitable']!.disabled);
-  assert.deepEqual(Object.keys(free).filter(id => id.startsWith('group:')), ['group:all', 'group:profitable'], 'Traders: everyone or the profitable traders');
-  assert.ok(free['h:show']!.heading && free['h:traders']!.heading, 'group headings are not choices');
-  const member = rows({ kind: 'stops', takes: false, group: 'profitable' }, true);
-  assert.equal(member['kind:stops']!.locked, false, 'with Plus the tag has no lock');
-  assert.ok(member['group:profitable']!.disabled && member['group:all']!.disabled, 'stops have no groups: the traders are greyed');
-  assert.ok(member['h:no-groups'], 'and a line says why');
-  assert.ok(liqMenuItems({ kind: 'stops', takes: false, group: 'all' }, true).at(-1)!.action, 'the last line opens the Guide');
-  assert.deepEqual(changeOf('kind:both', { takes: false }), { kind: 'both' });
-  assert.deepEqual(changeOf('group:profitable', { takes: false }), { group: 'profitable' });
-  assert.deepEqual(changeOf('takes', { takes: true }), { takes: false }, 'the switch flips');
-  assert.equal(changeOf('h:show', { takes: false }), null);
-  assert.equal(changeOf('kind:rich', { takes: false }), null);
-  assert.ok(isPlusChange({ kind: 'stops' }) && isPlusChange({ group: 'profitable' }) && isPlusChange({ takes: true }));
-  assert.equal(changeOf('group:proven', { takes: false }), null, 'a group the page does not offer is no change');
-  assert.ok(!isPlusChange({ kind: 'liq' }) && !isPlusChange({ group: 'all' }) && !isPlusChange({ takes: false }), 'back towards the free view is never Plus');
+test('the liquidation menu offers only public levels and their guide', () => {
+  assert.deepEqual(liqMenuItems().map(row => row.id), ['public', 'guide']);
+  assert.ok(liqMenuItems().every(row => !row.locked && !row.tag));
 });
 
 test('the note says when the orders are well behind the liquidations, and why a view draws nothing; both on two grids is not added up', async () => {

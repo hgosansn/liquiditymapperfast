@@ -48,12 +48,11 @@ import { GestureRecognizer, axisPinchScale, bindTouch, type GestureHandlers, typ
 import { PRICE_SPAN_SHARE, TIME_SPAN_MS, fitPrices, focusWindow, followPrice, holdPixel, limitFactor, liveEdgeShown, priceAtEdge, priceHeldAfter, priceRef, regionAt, wheelZoom, zoomedView } from './heat-zoom.ts';
 import { t, tn } from '../i18n.ts';
 import { el } from '../dom.ts';
-import { FREE_DAYS } from '../plus/config.ts';
 import { openMenu, type MenuItem } from '../menu.ts';
 import { blockMsOf, editScope, withEdits } from '../tpo/settings.ts';
 import { currentCoin, scaledUsd } from '../coin.ts';
 import { liqLevelsUrl } from '../liq-url.ts';
-import { groupName, heldBack, kindName, liveView, plusOn, viewParts, type LiqView } from '../liq-view.ts';
+import { groupName, kindName, liveView, viewParts, type LiqView } from '../liq-view.ts';
 import { columnNotes, curveSentence, liqNote, liqWhy, sideTitle } from '../liq-words.ts';
 import { mirrorSplits, readingTexts, stripeBoxLines } from '../liq-box.ts';
 import { openLiqMenu } from '../liq-menu.ts';
@@ -484,7 +483,7 @@ export class HeatPane {
    * opens the Depth pane on Liquidation levels, and is out of sight while that is what the pane shows. A page element over the drawing,
    * placed where the column is drawn (`#paintLiqColumn`); the heading's band is as tall as what it holds (`#liqHeadH`).
    */
-  readonly #liqHistory = el('button', { class: 'liq-history', type: 'button', hidden: true, tip: t('How these levels changed over time: opens the Depth pane on Liquidation levels. The last {n} days are free; older history is part of Plus.', { n: FREE_DAYS }) }, t('History'));
+  readonly #liqHistory = el('button', { class: 'liq-history', type: 'button', hidden: true, tip: t('How these levels changed over time: opens the Depth pane on Liquidation levels.') }, t('History'));
   #liqHeadH = LIQ_HEAD_H;
   /**
    * What the levels show, and the way to choose it (Plus, 2026-11-17): a button in the wide column's heading named for what is drawn, which
@@ -3989,7 +3988,7 @@ export class HeatPane {
   #placeLiqKind(x: number | null, W: number, state: AppState): void {
     const button = this.#liqKind;
     if (x === null) { if (!button.hidden) button.hidden = true; return; }
-    const s = state.liqLevels, view = liveView(s), held = heldBack(s, plusOn()), room = liqRoom(W), html = document.documentElement.dataset;
+    const s = state.liqLevels, view = liveView(s), held = false, room = liqRoom(W), html = document.documentElement.dataset;
     // Fitted again for another frame or material too: their fonts differ (the Bevel frame's is Tahoma at 11 px), and what fits with one may
     // not with another, so the group is always on the button or under it, never cut.
     const fit = `${view.kind}|${view.group}|${view.takes}|${held}|${room}|${html.frame ?? ''}|${html.material ?? ''}`;
@@ -3998,8 +3997,7 @@ export class HeatPane {
       button.classList.toggle('locked', held);
       button.style.maxWidth = `${room}px`;
       const kind = kindName(view.kind), group = view.kind !== 'stops' && view.group !== 'all' ? groupName(view.group) : '';
-      const shown = held ? t('Shown: {what}. Your choice is part of Plus and comes back with it. Press to choose what the levels show.', { what: viewParts(view).join(' · ') })
-        : t('Shown: {what}. Press to choose what the levels show: liquidations, stops or both, take profits, and whose.', { what: viewParts(view).join(' · ') });
+      const shown = t('Liquidation levels');
       // With take profits on, what the curve leaves out, for a newcomer.
       const tip = view.takes ? `${shown} ${curveSentence()}` : shown;
       button.dataset.tip = tip; button.setAttribute('aria-label', tip);

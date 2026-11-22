@@ -11,6 +11,7 @@ import { kindOf } from '../scope.ts';
 import { bookEmptyMessage, bookIds, bookMarketIds } from '../book-markets.ts';
 import { BookVenues } from './book-venues.ts';
 import { ASKS, BIDS, DepthBars, fitsBars, neededBars, pixelFlags, sideFlags } from '../depth-bars.ts';
+import { PUBLIC_LIQ_ACCESS } from '../liq-access.ts';
 import type { View } from '../view.ts';
 import { clock, price as fmtPrice, usd } from '../format.ts';
 import { gutter, leftGutter, timeTicks, AXIS_W, type HeatPane } from './heat-pane.ts';
@@ -25,9 +26,6 @@ import { barAt, columnAt, depthCardLines, depthColumns, depthKey, liqCardLines, 
 import { LiqHistory, bandIndex, bandOnEdge, type LiqRow } from '../liq-history.ts';
 import { TAKE_DASH } from '../liq-levels.ts';
 import { groupApplies, groupTitle, liveView, viewKey, type LiqView } from '../liq-view.ts';
-import { FREE_DAYS, freeFrom, plusOnSale } from '../plus/config.ts';
-import { plus } from '../plus/pass.ts';
-import { togglePlus } from '../plus/panel.ts';
 import type { StatOptions } from '../stat-options.ts';
 import { el } from '../dom.ts';
 import { addTune } from '../pane-tune.ts';
@@ -458,16 +456,14 @@ export class DepthPane extends TimePane {
   readonly #venues: BookVenues;
   #panel: Panel | null = null;
   /** The liquidation levels' history (liq-history.ts), read a UTC day at a time while the pane shows Liquidation levels. */
-  // The server's boundary decides what goes with a pass, sale or no sale. While Plus is not on sale the page closes nothing by itself: every
-  // day is asked for, and only the gate's own refusal closes one (and the days before it).
-  readonly #history = new LiqHistory(undefined, { freeFrom, onSale: plusOnSale, pass: now => plus().pass(now), refused: pass => plus().refused(pass) });
+  readonly #history = new LiqHistory(undefined, PUBLIC_LIQ_ACCESS);
   /** The Liquidation levels series last built, with the row in force in each pixel column, kept until the history, the view or the bands change. */
   #liq: LiqSeries | null = null;
   /**
    * Where the history is closed to this visitor (Plus), a button on the pane says so and opens what Plus is: a page element, so that it
    * can be pressed and read like any other. Placed by each drawing at the closed stretch's near end (`#lockAt`, a plot x, or null: none).
    */
-  readonly #lock = el('button', { type: 'button', class: 'plus-lock', hidden: true });
+  readonly #lock = el('span', { class: 'history-limit', hidden: true });
   #lockAt: number | null = null;
   constructor(host: HTMLElement, store: Store, view: View, private hub: Hub) {
     super(host, store, view, 'depth');
@@ -515,19 +511,16 @@ export class DepthPane extends TimePane {
     this.syncSound(); this.#sync();
     // On a phone the source stays in the row and the rest waits behind the key (pane-tune.ts); on a desktop the venues fold last.
     addTune(this.head, [this.#venues.root, group, scale, units, bell, table], t('Depth'), { fold: true });
-    this.#lock.onclick = () => { togglePlus(this.#lock); };
     this.root.append(this.#lock);
-    // A pass that comes or goes opens or closes the older days: the series is built again from what may now be read.
-    plus().subscribe(() => { this.#history.accessChanged(); this.#liq = null; this.invalidate(); this.rangeStale(); });
   }
   /** The lock at the near end of the closed stretch, under the header and inside the plot; out of sight when nothing in view is closed. */
   #placeLock(): void {
     const at = this.#lockAt, lock = this.#lock;
     if (at === null) { if (!lock.hidden) lock.hidden = true; return; }
-    const text = t('Earlier history: Plus');
+    const text = t('Earlier history unavailable');
     if (lock.textContent !== text) {
       lock.textContent = text;
-      setTip(lock, t('The liquidation levels\' history is free for the last {n} days. What is older is part of Plus, which pays for the servers that record it. Press for what Plus is.', { n: FREE_DAYS }));
+      setTip(lock, t('The upstream service provides only recent public liquidation history.'));
     }
     if (lock.hidden) lock.hidden = false;
     const w = lock.offsetWidth, x = Math.max(4, Math.min(this.plotW - w - 4, at - w - 8));
@@ -731,7 +724,7 @@ export class DepthPane extends TimePane {
     // Plus: the stretch of the view whose history is closed to this visitor; the lock stands at its near end.
     const closed = liqHeld?.closed ?? null, closedX = closed ? Math.min(pw, v.xOf(closed.to, pw)) : 0;
     if (liq && lastX < 0) {
-      if (closed) { say(t('This stretch of the liquidation levels\' history is part of Plus.')); this.#lockAt = closedX; return; }
+      if (closed) { say(t('This stretch of liquidation history is unavailable from the upstream service.')); this.#lockAt = closedX; return; }
       const kind = liqHeld?.view.kind;
       say(kind === 'stops' ? t('No stop levels recorded for this stretch of time.') : kind === 'both' ? t('No snapshot with both liquidations and stops in this stretch of time.')
         : t('No liquidation levels recorded for this stretch of time.'));

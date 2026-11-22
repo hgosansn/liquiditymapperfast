@@ -22,11 +22,11 @@ function files(dir: string): string[] {
   return out;
 }
 
-test('a removed trader group is named nowhere in the page, its packs, the Guide, the help, README.md or docs/plus.md', () => {
-  const scanned = [...files(path.join(ROOT, 'src', 'app')), path.join(ROOT, 'README.md'), path.join(ROOT, 'docs', 'plus.md')];
+test('a removed trader group is named nowhere in the page, its packs, the Guide, the help, README.md', () => {
+  const scanned = [...files(path.join(ROOT, 'src', 'app')), path.join(ROOT, 'README.md')];
   const rel = scanned.map(f => path.relative(ROOT, f).split(path.sep).join('/'));
   // The walk reaches what it must: the packs, the Guide and its packs, the help.
-  for (const must of ['src/app/i18n/de.json', 'src/app/guide/i18n/zh.json', 'src/app/guide/content.ts', 'src/app/help.ts', 'src/app/plus/page.ts', 'README.md', 'docs/plus.md']) assert.ok(rel.includes(must), must);
+  for (const must of ['src/app/i18n/de.json', 'src/app/guide/i18n/zh.json', 'src/app/guide/content.ts', 'src/app/help.ts', 'README.md']) assert.ok(rel.includes(must), must);
   const hits: string[] = [];
   scanned.forEach((file, i) => {
     fs.readFileSync(file, 'utf8').split(/\r?\n/).forEach((line, n) => { if (NAME.test(line)) hits.push(`${rel[i]}:${n + 1}: ${line.trim().slice(0, 120)}`); });
